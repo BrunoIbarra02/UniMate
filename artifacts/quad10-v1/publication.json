@@ -1,0 +1,55 @@
+{
+  "schema": "unimate.quad10-publication/1",
+  "release_id": "quad10-rig-v1-20261028",
+  "frozen_rigs": {
+    "count": 9,
+    "storage": "content-addressed S3 keys listed in qa_report.json",
+    "verified": "2026-10-28T20:46:00Z"
+  },
+  "blocked": {
+    "species": "cow",
+    "profile": "cow_conservative",
+    "reason": "edge_stretch_max=94.0334569087696 and edge_stretch_p99_max=4.2002246216964 exceed the release thresholds; cow_nopost also has insufficient anatomical hind-limb separation (0.000590 < 0.02) and cannot be corrected by relabeling"
+  },
+  "additional_action": {
+    "species": "goat",
+    "action": "run",
+    "prompt": "An object runs in place.",
+    "status": "human_review_required",
+    "rig_profile": "goat_nopost",
+    "rig_sha256": "4891771cf36aed5f4073a1e1d1e761bcf6d6ab210b5af9c783332769d7d9c28a",
+    "checkpoint": "outputs/unimate_uniml3d_f60_v3/checkpoints/checkpoint_step_150000.pt",
+    "cfg_scale": 3.0,
+    "seed": 0,
+    "qa": {
+      "frames": 48,
+      "edge_stretch_max": 25.52252909688666,
+      "edge_stretch_p99_max": 2.025758828892114,
+      "moving_leg_bone_count_5deg": 13,
+      "leg_bone_count": 16,
+      "contact_sheet_review": "no severe tearing visible in the 8 sampled frames"
+    },
+    "objects": {
+      "glb": {
+        "uri": "s3://global-storage-491/unimate_pilots_20261018/goat/animation_candidates/run_skintokens_quad10_cfg3/rep_0.glb",
+        "size": 19173996,
+        "sha256": "e4a103d4c23ba0c21c4eef171046013b88e608eb22214ab15502396c2c2fd613"
+      },
+      "mp4": {
+        "uri": "s3://global-storage-491/unimate_pilots_20261018/goat/animation_candidates/run_skintokens_quad10_cfg3/rep_0.mp4",
+        "size": 170783,
+        "sha256": "76a25cc07346b36f43fdb9640fe496c31f8782174c5ce8508e8e9f23d9a47c75"
+      },
+      "contact_sheet": {
+        "uri": "s3://global-storage-491/unimate_pilots_20261018/goat/animation_candidates/run_skintokens_quad10_cfg3/rep_0_contact_sheet.jpg",
+        "size": 56661,
+        "sha256": "f8971bd176d1c12022f670e4f2003aaf88c9edd4d86664aba9df0c6f8bf6fb31"
+      },
+      "audit": {
+        "uri": "s3://global-storage-491/unimate_pilots_20261018/goat/animation_candidates/run_skintokens_quad10_cfg3/rep_0_audit.json",
+        "size": 2753,
+        "sha256": "3fa5634f2c97955154da30f50e7a3f37a49142dd38e88f96ef3d4221a855b552"
+      }
+    }
+  }
+}

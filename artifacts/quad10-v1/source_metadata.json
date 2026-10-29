@@ -1,0 +1,72 @@
+{
+  "bison_nopost": {
+    "annotation_validation": {"accepted": true, "generic_bone_count": 0, "issues": [], "joint_count": 29, "review_mode": "human-reviewed"},
+    "canonical_gate": {"accepted": true, "face_left": "bone_15", "face_right": "bone_19", "forward_margin": 0.6382183917932369, "issues": []},
+    "remote_path": "/home/ubuntu/skintokens_quad10_20261027/assets/bison_nopost/bison_nopost.glb",
+    "rig_sha256": "ccc4dc35dfa729b059b04c111121fb7729a90867a472fd37e47a65095f92a285",
+    "rig_size": 23897664
+  },
+  "buffalo_nopost": {
+    "annotation_validation": {"accepted": true, "generic_bone_count": 0, "issues": [], "joint_count": 31, "review_mode": "human-reviewed"},
+    "canonical_gate": {"accepted": true, "face_left": "bone_21", "face_right": "bone_17", "forward_margin": 0.7343004706131497, "issues": []},
+    "remote_path": "/home/ubuntu/skintokens_quad10_20261027/assets/buffalo_nopost/buffalo_nopost.glb",
+    "rig_sha256": "c0c0370a5adb8f54c4557336a5bab0154bac081f089f903e89620b350d7bae5c",
+    "rig_size": 18463312
+  },
+  "cougar_nopost": {
+    "annotation_validation": {"accepted": true, "generic_bone_count": 0, "issues": [], "joint_count": 32, "review_mode": "human-reviewed"},
+    "canonical_gate": {"accepted": true, "face_left": "bone_14", "face_right": "bone_9", "forward_margin": 0.6141115942424042, "issues": []},
+    "remote_path": "/home/ubuntu/skintokens_quad10_20261027/assets/cougar_nopost/cougar_nopost.glb",
+    "rig_sha256": "c21a5720f7a74e90f913f9e9c96021c8ba849c0fd93ab2e70bd9e05361d921ba",
+    "rig_size": 18947368
+  },
+  "cow_conservative": {
+    "annotation_validation": {"accepted": true, "generic_bone_count": 0, "issues": [], "joint_count": 35, "review_mode": "human-reviewed"},
+    "canonical_gate": {"accepted": true, "face_left": "bone_1", "face_right": "bone_5", "forward_margin": 0.7737287466364816, "issues": []},
+    "remote_path": "/home/ubuntu/skintokens_quad10_20261027/assets/cow_conservative/cow_conservative.glb",
+    "rig_sha256": "1e10aa1eded4ccc05cfb1d18aa4d7da2e6521711874b85eee1f597d31db76152",
+    "rig_size": 14647532
+  },
+  "coyote_nopost": {
+    "annotation_validation": {"accepted": true, "generic_bone_count": 0, "issues": [], "joint_count": 40, "review_mode": "human-reviewed"},
+    "canonical_gate": {"accepted": true, "face_left": "bone_35", "face_right": "bone_5", "forward_margin": 0.5083384021291941, "issues": []},
+    "remote_path": "/home/ubuntu/skintokens_quad10_20261027/assets/coyote_nopost/coyote_nopost.glb",
+    "rig_sha256": "00c3613876cd28c067e55fcb607f55b13b387dc4698e8a1a57cdec04c709983d",
+    "rig_size": 24157424
+  },
+  "goat_nopost": {
+    "annotation_validation": {"accepted": true, "generic_bone_count": 0, "issues": [], "joint_count": 27, "review_mode": "human-reviewed"},
+    "canonical_gate": {"accepted": true, "face_left": "bone_20", "face_right": "bone_16", "forward_margin": 0.6531380712075489, "issues": []},
+    "remote_path": "/home/ubuntu/skintokens_quad10_20261027/assets/goat_nopost/goat_nopost.glb",
+    "rig_sha256": "4891771cf36aed5f4073a1e1d1e761bcf6d6ab210b5af9c783332769d7d9c28a",
+    "rig_size": 19116840
+  },
+  "hippopotamus_nopost": {
+    "annotation_validation": {"accepted": true, "generic_bone_count": 0, "issues": [], "joint_count": 27, "review_mode": "human-reviewed"},
+    "canonical_gate": {"accepted": true, "face_left": "bone_19", "face_right": "bone_23", "forward_margin": 0.8202463135318431, "issues": []},
+    "remote_path": "/home/ubuntu/skintokens_quad10_20261027/assets/hippopotamus_nopost/hippopotamus_nopost.glb",
+    "rig_sha256": "281c0c487f05faa743b596ebb86d1ed927be4728fb86974189f6b9ab3024a553",
+    "rig_size": 12689512
+  },
+  "hyena_diverse": {
+    "annotation_validation": {"accepted": true, "generic_bone_count": 0, "issues": [], "joint_count": 32, "review_mode": "human-reviewed"},
+    "canonical_gate": {"accepted": true, "face_left": "bone_19", "face_right": "bone_23", "forward_margin": 0.6973109761402957, "issues": []},
+    "remote_path": "/home/ubuntu/skintokens_quad10_20261027/assets/hyena_diverse/hyena_diverse.glb",
+    "rig_sha256": "5d092cfb33566597708d8d9924cce39665284ec13d03cc80ca273aef7e7c5c57",
+    "rig_size": 22946512
+  },
+  "jackal_conservative": {
+    "annotation_validation": {"accepted": true, "generic_bone_count": 0, "issues": [], "joint_count": 29, "review_mode": "human-reviewed"},
+    "canonical_gate": {"accepted": true, "face_left": "bone_25", "face_right": "bone_4", "forward_margin": 0.6529726094642105, "issues": []},
+    "remote_path": "/home/ubuntu/skintokens_quad10_20261027/assets/jackal_conservative/jackal_conservative.glb",
+    "rig_sha256": "37a0294425aa99f2b92557cdc0156c53fc76baff1acd87c5139204720c04ebda",
+    "rig_size": 25292704
+  },
+  "pig_nopost": {
+    "annotation_validation": {"accepted": true, "generic_bone_count": 0, "issues": [], "joint_count": 35, "review_mode": "human-reviewed"},
+    "canonical_gate": {"accepted": true, "face_left": "bone_23", "face_right": "bone_28", "forward_margin": 0.6617831784977863, "issues": []},
+    "remote_path": "/home/ubuntu/skintokens_quad10_20261027/assets/pig_nopost/pig_nopost.glb",
+    "rig_sha256": "da210b0bc10e7f904ff1e2ecf1385348ea8d718062f34c55c081f1ea674d05f5",
+    "rig_size": 19664356
+  }
+}

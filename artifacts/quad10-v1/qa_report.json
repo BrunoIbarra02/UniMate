@@ -1,0 +1,351 @@
+{
+  "schema": "unimate.quad10-release-qa/1",
+  "release_id": "quad10-rig-v1-20261028",
+  "thresholds": {
+    "required_repetitions": 2,
+    "forward_margin_min": 0.1,
+    "edge_stretch_max": 40.0,
+    "edge_stretch_p99_max": 3.5,
+    "moving_leg_fraction_min": 0.5
+  },
+  "summary": {
+    "total": 10,
+    "passed": 9,
+    "blocked": 1
+  },
+  "profiles": [
+    {
+      "species": "goat",
+      "profile": "goat_nopost",
+      "status": "pass",
+      "failures": [],
+      "rig": {
+        "sha256": "4891771cf36aed5f4073a1e1d1e761bcf6d6ab210b5af9c783332769d7d9c28a",
+        "size": 19116840,
+        "source": "/home/ubuntu/skintokens_quad10_20261027/assets/goat_nopost/goat_nopost.glb",
+        "version": "quad10-rig-v1-20261028+sha256.4891771cf36a",
+        "frozen_uri": "s3://global-storage-491/unimate_pilots_20261018/goat/rigs/quad10-rig-v1-20261028/4891771cf36aed5f4073a1e1d1e761bcf6d6ab210b5af9c783332769d7d9c28a.glb"
+      },
+      "canonicalization": {
+        "joint_count": 27,
+        "generic_bone_count": 0,
+        "review_mode": "human-reviewed"
+      },
+      "facing": {
+        "left": "bone_20",
+        "right": "bone_16",
+        "forward_margin": 0.6531380712075489
+      },
+      "animation_metrics": {
+        "repetitions": 2,
+        "edge_stretch_max": 17.129095057870515,
+        "edge_stretch_p99_max": 1.9611445327341193,
+        "moving_leg_fraction_min": 0.75,
+        "audit_files": [
+          "goat_nopost-an_object_walks_in_place-rep_0-0.json",
+          "goat_nopost-an_object_walks_in_place-rep_1-0.json"
+        ]
+      }
+    },
+    {
+      "species": "pig",
+      "profile": "pig_nopost",
+      "status": "pass",
+      "failures": [],
+      "rig": {
+        "sha256": "da210b0bc10e7f904ff1e2ecf1385348ea8d718062f34c55c081f1ea674d05f5",
+        "size": 19664356,
+        "source": "/home/ubuntu/skintokens_quad10_20261027/assets/pig_nopost/pig_nopost.glb",
+        "version": "quad10-rig-v1-20261028+sha256.da210b0bc10e",
+        "frozen_uri": "s3://global-storage-491/unimate_pilots_20261018/pig/rigs/quad10-rig-v1-20261028/da210b0bc10e7f904ff1e2ecf1385348ea8d718062f34c55c081f1ea674d05f5.glb"
+      },
+      "canonicalization": {
+        "joint_count": 35,
+        "generic_bone_count": 0,
+        "review_mode": "human-reviewed"
+      },
+      "facing": {
+        "left": "bone_23",
+        "right": "bone_28",
+        "forward_margin": 0.6617831784977863
+      },
+      "animation_metrics": {
+        "repetitions": 2,
+        "edge_stretch_max": 24.32725635625429,
+        "edge_stretch_p99_max": 2.0152415346210444,
+        "moving_leg_fraction_min": 1.0,
+        "audit_files": [
+          "pig_nopost-an_object_walks_in_place-rep_0-2.json",
+          "pig_nopost-an_object_walks_in_place-rep_1-2.json"
+        ]
+      }
+    },
+    {
+      "species": "hyena",
+      "profile": "hyena_diverse",
+      "status": "pass",
+      "failures": [],
+      "rig": {
+        "sha256": "5d092cfb33566597708d8d9924cce39665284ec13d03cc80ca273aef7e7c5c57",
+        "size": 22946512,
+        "source": "/home/ubuntu/skintokens_quad10_20261027/assets/hyena_diverse/hyena_diverse.glb",
+        "version": "quad10-rig-v1-20261028+sha256.5d092cfb3356",
+        "frozen_uri": "s3://global-storage-491/unimate_pilots_20261018/hyena/rigs/quad10-rig-v1-20261028/5d092cfb33566597708d8d9924cce39665284ec13d03cc80ca273aef7e7c5c57.glb"
+      },
+      "canonicalization": {
+        "joint_count": 32,
+        "generic_bone_count": 0,
+        "review_mode": "human-reviewed"
+      },
+      "facing": {
+        "left": "bone_19",
+        "right": "bone_23",
+        "forward_margin": 0.6973109761402957
+      },
+      "animation_metrics": {
+        "repetitions": 2,
+        "edge_stretch_max": 30.51653803540027,
+        "edge_stretch_p99_max": 3.294450157332338,
+        "moving_leg_fraction_min": 0.875,
+        "audit_files": [
+          "hyena_diverse-an_object_walks_in_place-rep_0-4.json",
+          "hyena_diverse-an_object_walks_in_place-rep_1-4.json"
+        ]
+      }
+    },
+    {
+      "species": "jackal",
+      "profile": "jackal_conservative",
+      "status": "pass",
+      "failures": [],
+      "rig": {
+        "sha256": "37a0294425aa99f2b92557cdc0156c53fc76baff1acd87c5139204720c04ebda",
+        "size": 25292704,
+        "source": "/home/ubuntu/skintokens_quad10_20261027/assets/jackal_conservative/jackal_conservative.glb",
+        "version": "quad10-rig-v1-20261028+sha256.37a0294425aa",
+        "frozen_uri": "s3://global-storage-491/unimate_pilots_20261018/jackal/rigs/quad10-rig-v1-20261028/37a0294425aa99f2b92557cdc0156c53fc76baff1acd87c5139204720c04ebda.glb"
+      },
+      "canonicalization": {
+        "joint_count": 29,
+        "generic_bone_count": 0,
+        "review_mode": "human-reviewed"
+      },
+      "facing": {
+        "left": "bone_25",
+        "right": "bone_4",
+        "forward_margin": 0.6529726094642105
+      },
+      "animation_metrics": {
+        "repetitions": 2,
+        "edge_stretch_max": 25.912895665149147,
+        "edge_stretch_p99_max": 3.102512347811514,
+        "moving_leg_fraction_min": 0.75,
+        "audit_files": [
+          "jackal_conservative-an_object_walks_in_place-rep_0-5.json",
+          "jackal_conservative-an_object_walks_in_place-rep_1-5.json"
+        ]
+      }
+    },
+    {
+      "species": "hippopotamus",
+      "profile": "hippopotamus_nopost",
+      "status": "pass",
+      "failures": [],
+      "rig": {
+        "sha256": "281c0c487f05faa743b596ebb86d1ed927be4728fb86974189f6b9ab3024a553",
+        "size": 12689512,
+        "source": "/home/ubuntu/skintokens_quad10_20261027/assets/hippopotamus_nopost/hippopotamus_nopost.glb",
+        "version": "quad10-rig-v1-20261028+sha256.281c0c487f05",
+        "frozen_uri": "s3://global-storage-491/unimate_pilots_20261018/hippopotamus/rigs/quad10-rig-v1-20261028/281c0c487f05faa743b596ebb86d1ed927be4728fb86974189f6b9ab3024a553.glb"
+      },
+      "canonicalization": {
+        "joint_count": 27,
+        "generic_bone_count": 0,
+        "review_mode": "human-reviewed"
+      },
+      "facing": {
+        "left": "bone_19",
+        "right": "bone_23",
+        "forward_margin": 0.8202463135318431
+      },
+      "animation_metrics": {
+        "repetitions": 2,
+        "edge_stretch_max": 12.72283933995292,
+        "edge_stretch_p99_max": 2.0113677632183173,
+        "moving_leg_fraction_min": 0.75,
+        "audit_files": [
+          "hippopotamus_nopost-an_object_walks_in_place-rep_0-6.json",
+          "hippopotamus_nopost-an_object_walks_in_place-rep_1-6.json"
+        ]
+      }
+    },
+    {
+      "species": "bison",
+      "profile": "bison_nopost",
+      "status": "pass",
+      "failures": [],
+      "rig": {
+        "sha256": "ccc4dc35dfa729b059b04c111121fb7729a90867a472fd37e47a65095f92a285",
+        "size": 23897664,
+        "source": "/home/ubuntu/skintokens_quad10_20261027/assets/bison_nopost/bison_nopost.glb",
+        "version": "quad10-rig-v1-20261028+sha256.ccc4dc35dfa7",
+        "frozen_uri": "s3://global-storage-491/unimate_pilots_20261018/bison/rigs/quad10-rig-v1-20261028/ccc4dc35dfa729b059b04c111121fb7729a90867a472fd37e47a65095f92a285.glb"
+      },
+      "canonicalization": {
+        "joint_count": 29,
+        "generic_bone_count": 0,
+        "review_mode": "human-reviewed"
+      },
+      "facing": {
+        "left": "bone_15",
+        "right": "bone_19",
+        "forward_margin": 0.6382183917932369
+      },
+      "animation_metrics": {
+        "repetitions": 2,
+        "edge_stretch_max": 19.37752638788541,
+        "edge_stretch_p99_max": 2.6672523547472426,
+        "moving_leg_fraction_min": 0.75,
+        "audit_files": [
+          "bison_nopost-an_object_walks_in_place-rep_0-7.json",
+          "bison_nopost-an_object_walks_in_place-rep_1-7.json"
+        ]
+      }
+    },
+    {
+      "species": "cow",
+      "profile": "cow_conservative",
+      "status": "blocked",
+      "failures": [
+        "severe_edge_tearing",
+        "distributed_edge_tearing"
+      ],
+      "rig": {
+        "sha256": "1e10aa1eded4ccc05cfb1d18aa4d7da2e6521711874b85eee1f597d31db76152",
+        "size": 14647532,
+        "source": "/home/ubuntu/skintokens_quad10_20261027/assets/cow_conservative/cow_conservative.glb",
+        "version": null,
+        "frozen_uri": null
+      },
+      "canonicalization": {
+        "joint_count": 35,
+        "generic_bone_count": 0,
+        "review_mode": "human-reviewed"
+      },
+      "facing": {
+        "left": "bone_1",
+        "right": "bone_5",
+        "forward_margin": 0.7737287466364816
+      },
+      "animation_metrics": {
+        "repetitions": 2,
+        "edge_stretch_max": 94.03345690876964,
+        "edge_stretch_p99_max": 4.200224621696402,
+        "moving_leg_fraction_min": 0.6875,
+        "audit_files": [
+          "cow_conservative-an_object_walks_in_place-rep_0-9.json",
+          "cow_conservative-an_object_walks_in_place-rep_1-9.json"
+        ]
+      }
+    },
+    {
+      "species": "buffalo",
+      "profile": "buffalo_nopost",
+      "status": "pass",
+      "failures": [],
+      "rig": {
+        "sha256": "c0c0370a5adb8f54c4557336a5bab0154bac081f089f903e89620b350d7bae5c",
+        "size": 18463312,
+        "source": "/home/ubuntu/skintokens_quad10_20261027/assets/buffalo_nopost/buffalo_nopost.glb",
+        "version": "quad10-rig-v1-20261028+sha256.c0c0370a5adb",
+        "frozen_uri": "s3://global-storage-491/unimate_pilots_20261018/buffalo/rigs/quad10-rig-v1-20261028/c0c0370a5adb8f54c4557336a5bab0154bac081f089f903e89620b350d7bae5c.glb"
+      },
+      "canonicalization": {
+        "joint_count": 31,
+        "generic_bone_count": 0,
+        "review_mode": "human-reviewed"
+      },
+      "facing": {
+        "left": "bone_21",
+        "right": "bone_17",
+        "forward_margin": 0.7343004706131497
+      },
+      "animation_metrics": {
+        "repetitions": 2,
+        "edge_stretch_max": 20.57077969535446,
+        "edge_stretch_p99_max": 2.3078008251329063,
+        "moving_leg_fraction_min": 0.875,
+        "audit_files": [
+          "buffalo_nopost-an_object_walks_in_place-rep_0-10.json",
+          "buffalo_nopost-an_object_walks_in_place-rep_1-10.json"
+        ]
+      }
+    },
+    {
+      "species": "coyote",
+      "profile": "coyote_nopost",
+      "status": "pass",
+      "failures": [],
+      "rig": {
+        "sha256": "00c3613876cd28c067e55fcb607f55b13b387dc4698e8a1a57cdec04c709983d",
+        "size": 24157424,
+        "source": "/home/ubuntu/skintokens_quad10_20261027/assets/coyote_nopost/coyote_nopost.glb",
+        "version": "quad10-rig-v1-20261028+sha256.00c3613876cd",
+        "frozen_uri": "s3://global-storage-491/unimate_pilots_20261018/coyote/rigs/quad10-rig-v1-20261028/00c3613876cd28c067e55fcb607f55b13b387dc4698e8a1a57cdec04c709983d.glb"
+      },
+      "canonicalization": {
+        "joint_count": 40,
+        "generic_bone_count": 0,
+        "review_mode": "human-reviewed"
+      },
+      "facing": {
+        "left": "bone_35",
+        "right": "bone_5",
+        "forward_margin": 0.5083384021291941
+      },
+      "animation_metrics": {
+        "repetitions": 2,
+        "edge_stretch_max": 16.379181604055777,
+        "edge_stretch_p99_max": 1.9677921806574197,
+        "moving_leg_fraction_min": 1.0,
+        "audit_files": [
+          "coyote_nopost-an_object_walks_in_place-rep_0-12.json",
+          "coyote_nopost-an_object_walks_in_place-rep_1-12.json"
+        ]
+      }
+    },
+    {
+      "species": "cougar",
+      "profile": "cougar_nopost",
+      "status": "pass",
+      "failures": [],
+      "rig": {
+        "sha256": "c21a5720f7a74e90f913f9e9c96021c8ba849c0fd93ab2e70bd9e05361d921ba",
+        "size": 18947368,
+        "source": "/home/ubuntu/skintokens_quad10_20261027/assets/cougar_nopost/cougar_nopost.glb",
+        "version": "quad10-rig-v1-20261028+sha256.c21a5720f7a7",
+        "frozen_uri": "s3://global-storage-491/unimate_pilots_20261018/cougar/rigs/quad10-rig-v1-20261028/c21a5720f7a74e90f913f9e9c96021c8ba849c0fd93ab2e70bd9e05361d921ba.glb"
+      },
+      "canonicalization": {
+        "joint_count": 32,
+        "generic_bone_count": 0,
+        "review_mode": "human-reviewed"
+      },
+      "facing": {
+        "left": "bone_14",
+        "right": "bone_9",
+        "forward_margin": 0.6141115942424042
+      },
+      "animation_metrics": {
+        "repetitions": 2,
+        "edge_stretch_max": 6.485839613850479,
+        "edge_stretch_p99_max": 1.6426686340482068,
+        "moving_leg_fraction_min": 0.6875,
+        "audit_files": [
+          "cougar_nopost-an_object_walks_in_place-rep_0-13.json",
+          "cougar_nopost-an_object_walks_in_place-rep_1-13.json"
+        ]
+      }
+    }
+  ]
+}

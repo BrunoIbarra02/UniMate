@@ -1,0 +1,63 @@
+{
+  "release_id": "quad10-rig-v1-20261028",
+  "expected_blocked": 1,
+  "thresholds": {
+    "required_repetitions": 2,
+    "forward_margin_min": 0.1,
+    "edge_stretch_max": 40.0,
+    "edge_stretch_p99_max": 3.5,
+    "moving_leg_fraction_min": 0.5
+  },
+  "profiles": [
+    {
+      "species": "goat",
+      "profile": "goat_nopost",
+      "frozen_uri": "s3://global-storage-491/unimate_pilots_20261018/goat/rigs/quad10-rig-v1-20261028/{sha256}.glb"
+    },
+    {
+      "species": "pig",
+      "profile": "pig_nopost",
+      "frozen_uri": "s3://global-storage-491/unimate_pilots_20261018/pig/rigs/quad10-rig-v1-20261028/{sha256}.glb"
+    },
+    {
+      "species": "hyena",
+      "profile": "hyena_diverse",
+      "frozen_uri": "s3://global-storage-491/unimate_pilots_20261018/hyena/rigs/quad10-rig-v1-20261028/{sha256}.glb"
+    },
+    {
+      "species": "jackal",
+      "profile": "jackal_conservative",
+      "frozen_uri": "s3://global-storage-491/unimate_pilots_20261018/jackal/rigs/quad10-rig-v1-20261028/{sha256}.glb"
+    },
+    {
+      "species": "hippopotamus",
+      "profile": "hippopotamus_nopost",
+      "frozen_uri": "s3://global-storage-491/unimate_pilots_20261018/hippopotamus/rigs/quad10-rig-v1-20261028/{sha256}.glb"
+    },
+    {
+      "species": "bison",
+      "profile": "bison_nopost",
+      "frozen_uri": "s3://global-storage-491/unimate_pilots_20261018/bison/rigs/quad10-rig-v1-20261028/{sha256}.glb"
+    },
+    {
+      "species": "cow",
+      "profile": "cow_conservative",
+      "frozen_uri": "s3://global-storage-491/unimate_pilots_20261018/cow/rigs/quad10-rig-v1-20261028/{sha256}.glb"
+    },
+    {
+      "species": "buffalo",
+      "profile": "buffalo_nopost",
+      "frozen_uri": "s3://global-storage-491/unimate_pilots_20261018/buffalo/rigs/quad10-rig-v1-20261028/{sha256}.glb"
+    },
+    {
+      "species": "coyote",
+      "profile": "coyote_nopost",
+      "frozen_uri": "s3://global-storage-491/unimate_pilots_20261018/coyote/rigs/quad10-rig-v1-20261028/{sha256}.glb"
+    },
+    {
+      "species": "cougar",
+      "profile": "cougar_nopost",
+      "frozen_uri": "s3://global-storage-491/unimate_pilots_20261018/cougar/rigs/quad10-rig-v1-20261028/{sha256}.glb"
+    }
+  ]
+}
