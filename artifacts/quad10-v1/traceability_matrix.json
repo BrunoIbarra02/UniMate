@@ -1,0 +1,1766 @@
+[
+  {
+    "index": 1,
+    "species": "bison",
+    "catalog_family": "Bovinos y ungulados",
+    "taxonomic_family": "Bovidae (Bovinae)",
+    "profile": "bison_conservative",
+    "rig_version": "quad10-rig-v1-20261028+sha256.aaa40b784f25",
+    "rig_sha256": "aaa40b784f25de72ca3f9c6c4485d26b0cc3d33854026c4753c15c3d1aae2dc1",
+    "action": "walk",
+    "prompt": "An object walks in place.",
+    "cfg_scale": 3.0,
+    "cycle_repetition": {
+      "rep_index": 0,
+      "repetition_status": "2 reps generadas y verificadas (rep_0, rep_1)",
+      "frames": 48,
+      "frame_range": [
+        1,
+        48
+      ],
+      "pose_seam_rms_norm": 0.05197155516719031,
+      "worst_speed_transition": [
+        38,
+        39
+      ]
+    },
+    "paths": {
+      "glb_remote_animated": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/samples/animated/bison_conservative-an_object_walks_in_place-rep_0-8.glb",
+      "glb_source_rig_remote": "/home/ubuntu/skintokens_quad10_20261027/assets/bison_conservative/bison_conservative.glb",
+      "s3_target_pattern": "s3://global-storage-491/unimate_pilots_20261018/bison/animation_candidates/walk_skintokens_quad10_cfg3/rep_0.glb",
+      "preview_mp4_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/previews/bison_conservative-an_object_walks_in_place-rep_0-8.mp4",
+      "preview_mp4_local": "tmp/skintokens_quad10_20261027/previews/bison_conservative-an_object_walks_in_place-rep_0-8.mp4",
+      "preview_mp4_exists": true,
+      "contact_sheet_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/sheets/bison_conservative-an_object_walks_in_place-rep_0-8.jpg",
+      "contact_sheet_local": "tmp/skintokens_quad10_20261027/sheets/bison_conservative-an_object_walks_in_place-rep_0-8.jpg",
+      "contact_sheet_exists": true,
+      "audit_json_local": "tmp/skintokens_quad10_20261027/audits/bison_conservative-an_object_walks_in_place-rep_0-8.json"
+    },
+    "texture_status": {
+      "status": "VERIFICADO_PACKED",
+      "resolution": "4096x4096",
+      "embedded": true,
+      "materials_count": 1,
+      "textures_count": 2,
+      "images_count": 1,
+      "notes": "Textura difusa RGB 4096x4096 embebida directamente en el buffer binario del GLB (sin mallas blancas ni texturas descolgadas)."
+    },
+    "structural_audit": {
+      "edge_stretch_max": 29.70028229926462,
+      "edge_stretch_p99_max": 3.8839283846964725,
+      "edge_stretch_worst_frame": 26,
+      "floor_delta_min_norm": -0.03568591167420071,
+      "floor_lowest_frame": 37,
+      "leg_bones_moving": 12,
+      "leg_bones_total": 16,
+      "leg_fraction_moving": 0.75
+    },
+    "visual_verdict": {
+      "verdict": "BLOQUEADO",
+      "frame": "f26",
+      "defect": "Desgarro/malla en zigzag en la unión pecho-pata delantera",
+      "severity": "Bloqueante-para-gate"
+    }
+  },
+  {
+    "index": 2,
+    "species": "bison",
+    "catalog_family": "Bovinos y ungulados",
+    "taxonomic_family": "Bovidae (Bovinae)",
+    "profile": "bison_conservative",
+    "rig_version": "quad10-rig-v1-20261028+sha256.aaa40b784f25",
+    "rig_sha256": "aaa40b784f25de72ca3f9c6c4485d26b0cc3d33854026c4753c15c3d1aae2dc1",
+    "action": "walk",
+    "prompt": "An object walks in place.",
+    "cfg_scale": 3.0,
+    "cycle_repetition": {
+      "rep_index": 1,
+      "repetition_status": "2 reps generadas y verificadas (rep_0, rep_1)",
+      "frames": 48,
+      "frame_range": [
+        1,
+        48
+      ],
+      "pose_seam_rms_norm": 0.042667872180244884,
+      "worst_speed_transition": [
+        16,
+        17
+      ]
+    },
+    "paths": {
+      "glb_remote_animated": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/samples/animated/bison_conservative-an_object_walks_in_place-rep_1-8.glb",
+      "glb_source_rig_remote": "/home/ubuntu/skintokens_quad10_20261027/assets/bison_conservative/bison_conservative.glb",
+      "s3_target_pattern": "s3://global-storage-491/unimate_pilots_20261018/bison/animation_candidates/walk_skintokens_quad10_cfg3/rep_1.glb",
+      "preview_mp4_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/previews/bison_conservative-an_object_walks_in_place-rep_1-8.mp4",
+      "preview_mp4_local": "tmp/skintokens_quad10_20261027/previews/bison_conservative-an_object_walks_in_place-rep_1-8.mp4",
+      "preview_mp4_exists": true,
+      "contact_sheet_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/sheets/bison_conservative-an_object_walks_in_place-rep_1-8.jpg",
+      "contact_sheet_local": "tmp/skintokens_quad10_20261027/sheets/bison_conservative-an_object_walks_in_place-rep_1-8.jpg",
+      "contact_sheet_exists": true,
+      "audit_json_local": "tmp/skintokens_quad10_20261027/audits/bison_conservative-an_object_walks_in_place-rep_1-8.json"
+    },
+    "texture_status": {
+      "status": "VERIFICADO_PACKED",
+      "resolution": "4096x4096",
+      "embedded": true,
+      "materials_count": 1,
+      "textures_count": 2,
+      "images_count": 1,
+      "notes": "Textura difusa RGB 4096x4096 embebida directamente en el buffer binario del GLB (sin mallas blancas ni texturas descolgadas)."
+    },
+    "structural_audit": {
+      "edge_stretch_max": 35.98058614673955,
+      "edge_stretch_p99_max": 4.251715505692307,
+      "edge_stretch_worst_frame": 28,
+      "floor_delta_min_norm": -0.02592926580132013,
+      "floor_lowest_frame": 28,
+      "leg_bones_moving": 14,
+      "leg_bones_total": 16,
+      "leg_fraction_moving": 0.875
+    },
+    "visual_verdict": {
+      "verdict": "BLOQUEADO",
+      "frame": "f28",
+      "defect": "Desgarro/malla en zigzag en la unión pecho-pata delantera",
+      "severity": "Bloqueante-para-gate"
+    }
+  },
+  {
+    "index": 3,
+    "species": "bison",
+    "catalog_family": "Bovinos y ungulados",
+    "taxonomic_family": "Bovidae (Bovinae)",
+    "profile": "bison_nopost",
+    "rig_version": "quad10-rig-v1-20261028+sha256.ccc4dc35dfa7",
+    "rig_sha256": "ccc4dc35dfa729b059b04c111121fb7729a90867a472fd37e47a65095f92a285",
+    "action": "walk",
+    "prompt": "An object walks in place.",
+    "cfg_scale": 3.0,
+    "cycle_repetition": {
+      "rep_index": 0,
+      "repetition_status": "2 reps generadas y verificadas (rep_0, rep_1)",
+      "frames": 48,
+      "frame_range": [
+        1,
+        48
+      ],
+      "pose_seam_rms_norm": 0.027589619284808936,
+      "worst_speed_transition": [
+        46,
+        47
+      ]
+    },
+    "paths": {
+      "glb_remote_animated": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/samples/animated/bison_nopost-an_object_walks_in_place-rep_0-7.glb",
+      "glb_source_rig_remote": "/home/ubuntu/skintokens_quad10_20261027/assets/bison_nopost/bison_nopost.glb",
+      "s3_target_pattern": "s3://global-storage-491/unimate_pilots_20261018/bison/animation_candidates/walk_skintokens_quad10_cfg3/rep_0.glb",
+      "preview_mp4_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/previews/bison_nopost-an_object_walks_in_place-rep_0-7.mp4",
+      "preview_mp4_local": "tmp/skintokens_quad10_20261027/previews/bison_nopost-an_object_walks_in_place-rep_0-7.mp4",
+      "preview_mp4_exists": true,
+      "contact_sheet_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/sheets/bison_nopost-an_object_walks_in_place-rep_0-7.jpg",
+      "contact_sheet_local": "tmp/skintokens_quad10_20261027/sheets/bison_nopost-an_object_walks_in_place-rep_0-7.jpg",
+      "contact_sheet_exists": true,
+      "audit_json_local": "tmp/skintokens_quad10_20261027/audits/bison_nopost-an_object_walks_in_place-rep_0-7.json"
+    },
+    "texture_status": {
+      "status": "VERIFICADO_PACKED",
+      "resolution": "4096x4096",
+      "embedded": true,
+      "materials_count": 1,
+      "textures_count": 2,
+      "images_count": 1,
+      "notes": "Textura difusa RGB 4096x4096 embebida directamente en el buffer binario del GLB (sin mallas blancas ni texturas descolgadas)."
+    },
+    "structural_audit": {
+      "edge_stretch_max": 19.37752638788541,
+      "edge_stretch_p99_max": 2.405925048284377,
+      "edge_stretch_worst_frame": 22,
+      "floor_delta_min_norm": -0.029327465329633182,
+      "floor_lowest_frame": 28,
+      "leg_bones_moving": 13,
+      "leg_bones_total": 16,
+      "leg_fraction_moving": 0.8125
+    },
+    "visual_verdict": {
+      "verdict": "CONGELADO (ganador)",
+      "frame": "f22",
+      "defect": "Sin defecto",
+      "severity": "—"
+    }
+  },
+  {
+    "index": 4,
+    "species": "bison",
+    "catalog_family": "Bovinos y ungulados",
+    "taxonomic_family": "Bovidae (Bovinae)",
+    "profile": "bison_nopost",
+    "rig_version": "quad10-rig-v1-20261028+sha256.ccc4dc35dfa7",
+    "rig_sha256": "ccc4dc35dfa729b059b04c111121fb7729a90867a472fd37e47a65095f92a285",
+    "action": "walk",
+    "prompt": "An object walks in place.",
+    "cfg_scale": 3.0,
+    "cycle_repetition": {
+      "rep_index": 1,
+      "repetition_status": "2 reps generadas y verificadas (rep_0, rep_1)",
+      "frames": 48,
+      "frame_range": [
+        1,
+        48
+      ],
+      "pose_seam_rms_norm": 0.03218410944644259,
+      "worst_speed_transition": [
+        6,
+        7
+      ]
+    },
+    "paths": {
+      "glb_remote_animated": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/samples/animated/bison_nopost-an_object_walks_in_place-rep_1-7.glb",
+      "glb_source_rig_remote": "/home/ubuntu/skintokens_quad10_20261027/assets/bison_nopost/bison_nopost.glb",
+      "s3_target_pattern": "s3://global-storage-491/unimate_pilots_20261018/bison/animation_candidates/walk_skintokens_quad10_cfg3/rep_1.glb",
+      "preview_mp4_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/previews/bison_nopost-an_object_walks_in_place-rep_1-7.mp4",
+      "preview_mp4_local": "tmp/skintokens_quad10_20261027/previews/bison_nopost-an_object_walks_in_place-rep_1-7.mp4",
+      "preview_mp4_exists": true,
+      "contact_sheet_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/sheets/bison_nopost-an_object_walks_in_place-rep_1-7.jpg",
+      "contact_sheet_local": "tmp/skintokens_quad10_20261027/sheets/bison_nopost-an_object_walks_in_place-rep_1-7.jpg",
+      "contact_sheet_exists": true,
+      "audit_json_local": "tmp/skintokens_quad10_20261027/audits/bison_nopost-an_object_walks_in_place-rep_1-7.json"
+    },
+    "texture_status": {
+      "status": "VERIFICADO_PACKED",
+      "resolution": "4096x4096",
+      "embedded": true,
+      "materials_count": 1,
+      "textures_count": 2,
+      "images_count": 1,
+      "notes": "Textura difusa RGB 4096x4096 embebida directamente en el buffer binario del GLB (sin mallas blancas ni texturas descolgadas)."
+    },
+    "structural_audit": {
+      "edge_stretch_max": 8.54376684247105,
+      "edge_stretch_p99_max": 2.6672523547472426,
+      "edge_stretch_worst_frame": 16,
+      "floor_delta_min_norm": -0.03781498223811117,
+      "floor_lowest_frame": 13,
+      "leg_bones_moving": 12,
+      "leg_bones_total": 16,
+      "leg_fraction_moving": 0.75
+    },
+    "visual_verdict": {
+      "verdict": "CONGELADO (ganador)",
+      "frame": "f16",
+      "defect": "Sin defecto",
+      "severity": "—"
+    }
+  },
+  {
+    "index": 5,
+    "species": "buffalo",
+    "catalog_family": "Bovinos y ungulados",
+    "taxonomic_family": "Bovidae (Bovinae)",
+    "profile": "buffalo_conservative",
+    "rig_version": "quad10-rig-v1-20261028+sha256.31342a23eda9",
+    "rig_sha256": "31342a23eda9c6810d2af64dbda99e497a18e2b3950a900f4aa34a6861fce2a3",
+    "action": "walk",
+    "prompt": "An object walks in place.",
+    "cfg_scale": 3.0,
+    "cycle_repetition": {
+      "rep_index": 0,
+      "repetition_status": "2 reps generadas y verificadas (rep_0, rep_1)",
+      "frames": 48,
+      "frame_range": [
+        1,
+        48
+      ],
+      "pose_seam_rms_norm": 0.033557900299448114,
+      "worst_speed_transition": [
+        28,
+        29
+      ]
+    },
+    "paths": {
+      "glb_remote_animated": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/samples/animated/buffalo_conservative-an_object_walks_in_place-rep_0-11.glb",
+      "glb_source_rig_remote": "/home/ubuntu/skintokens_quad10_20261027/assets/buffalo_conservative/buffalo_conservative.glb",
+      "s3_target_pattern": "s3://global-storage-491/unimate_pilots_20261018/buffalo/animation_candidates/walk_skintokens_quad10_cfg3/rep_0.glb",
+      "preview_mp4_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/previews/buffalo_conservative-an_object_walks_in_place-rep_0-11.mp4",
+      "preview_mp4_local": "tmp/skintokens_quad10_20261027/previews/buffalo_conservative-an_object_walks_in_place-rep_0-11.mp4",
+      "preview_mp4_exists": true,
+      "contact_sheet_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/sheets/buffalo_conservative-an_object_walks_in_place-rep_0-11.jpg",
+      "contact_sheet_local": "tmp/skintokens_quad10_20261027/sheets/buffalo_conservative-an_object_walks_in_place-rep_0-11.jpg",
+      "contact_sheet_exists": true,
+      "audit_json_local": "tmp/skintokens_quad10_20261027/audits/buffalo_conservative-an_object_walks_in_place-rep_0-11.json"
+    },
+    "texture_status": {
+      "status": "VERIFICADO_PACKED",
+      "resolution": "4096x4096",
+      "embedded": true,
+      "materials_count": 1,
+      "textures_count": 2,
+      "images_count": 1,
+      "notes": "Textura difusa RGB 4096x4096 embebida directamente en el buffer binario del GLB (sin mallas blancas ni texturas descolgadas)."
+    },
+    "structural_audit": {
+      "edge_stretch_max": 27.449806825701085,
+      "edge_stretch_p99_max": 2.5574581113865182,
+      "edge_stretch_worst_frame": 30,
+      "floor_delta_min_norm": -0.03701357891848483,
+      "floor_lowest_frame": 10,
+      "leg_bones_moving": 13,
+      "leg_bones_total": 16,
+      "leg_fraction_moving": 0.8125
+    },
+    "visual_verdict": {
+      "verdict": "BLOQUEADO",
+      "frame": "f10",
+      "defect": "Desgarro/telaraña de malla en la unión pecho-pata delantera",
+      "severity": "Bloqueante-para-gate"
+    }
+  },
+  {
+    "index": 6,
+    "species": "buffalo",
+    "catalog_family": "Bovinos y ungulados",
+    "taxonomic_family": "Bovidae (Bovinae)",
+    "profile": "buffalo_conservative",
+    "rig_version": "quad10-rig-v1-20261028+sha256.31342a23eda9",
+    "rig_sha256": "31342a23eda9c6810d2af64dbda99e497a18e2b3950a900f4aa34a6861fce2a3",
+    "action": "walk",
+    "prompt": "An object walks in place.",
+    "cfg_scale": 3.0,
+    "cycle_repetition": {
+      "rep_index": 1,
+      "repetition_status": "2 reps generadas y verificadas (rep_0, rep_1)",
+      "frames": 48,
+      "frame_range": [
+        1,
+        48
+      ],
+      "pose_seam_rms_norm": 0.07110388398511629,
+      "worst_speed_transition": [
+        6,
+        7
+      ]
+    },
+    "paths": {
+      "glb_remote_animated": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/samples/animated/buffalo_conservative-an_object_walks_in_place-rep_1-11.glb",
+      "glb_source_rig_remote": "/home/ubuntu/skintokens_quad10_20261027/assets/buffalo_conservative/buffalo_conservative.glb",
+      "s3_target_pattern": "s3://global-storage-491/unimate_pilots_20261018/buffalo/animation_candidates/walk_skintokens_quad10_cfg3/rep_1.glb",
+      "preview_mp4_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/previews/buffalo_conservative-an_object_walks_in_place-rep_1-11.mp4",
+      "preview_mp4_local": "tmp/skintokens_quad10_20261027/previews/buffalo_conservative-an_object_walks_in_place-rep_1-11.mp4",
+      "preview_mp4_exists": true,
+      "contact_sheet_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/sheets/buffalo_conservative-an_object_walks_in_place-rep_1-11.jpg",
+      "contact_sheet_local": "tmp/skintokens_quad10_20261027/sheets/buffalo_conservative-an_object_walks_in_place-rep_1-11.jpg",
+      "contact_sheet_exists": true,
+      "audit_json_local": "tmp/skintokens_quad10_20261027/audits/buffalo_conservative-an_object_walks_in_place-rep_1-11.json"
+    },
+    "texture_status": {
+      "status": "VERIFICADO_PACKED",
+      "resolution": "4096x4096",
+      "embedded": true,
+      "materials_count": 1,
+      "textures_count": 2,
+      "images_count": 1,
+      "notes": "Textura difusa RGB 4096x4096 embebida directamente en el buffer binario del GLB (sin mallas blancas ni texturas descolgadas)."
+    },
+    "structural_audit": {
+      "edge_stretch_max": 34.93613530915584,
+      "edge_stretch_p99_max": 2.9678558314550223,
+      "edge_stretch_worst_frame": 23,
+      "floor_delta_min_norm": -0.001643970008080973,
+      "floor_lowest_frame": 36,
+      "leg_bones_moving": 12,
+      "leg_bones_total": 16,
+      "leg_fraction_moving": 0.75
+    },
+    "visual_verdict": {
+      "verdict": "BLOQUEADO",
+      "frame": "f36",
+      "defect": "Desgarro/telaraña de malla en la unión pecho-pata delantera",
+      "severity": "Bloqueante-para-gate"
+    }
+  },
+  {
+    "index": 7,
+    "species": "buffalo",
+    "catalog_family": "Bovinos y ungulados",
+    "taxonomic_family": "Bovidae (Bovinae)",
+    "profile": "buffalo_nopost",
+    "rig_version": "quad10-rig-v1-20261028+sha256.c0c0370a5adb",
+    "rig_sha256": "c0c0370a5adb8f54c4557336a5bab0154bac081f089f903e89620b350d7bae5c",
+    "action": "walk",
+    "prompt": "An object walks in place.",
+    "cfg_scale": 3.0,
+    "cycle_repetition": {
+      "rep_index": 0,
+      "repetition_status": "2 reps generadas y verificadas (rep_0, rep_1)",
+      "frames": 48,
+      "frame_range": [
+        1,
+        48
+      ],
+      "pose_seam_rms_norm": 0.028444334599139854,
+      "worst_speed_transition": [
+        9,
+        10
+      ]
+    },
+    "paths": {
+      "glb_remote_animated": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/samples/animated/buffalo_nopost-an_object_walks_in_place-rep_0-10.glb",
+      "glb_source_rig_remote": "/home/ubuntu/skintokens_quad10_20261027/assets/buffalo_nopost/buffalo_nopost.glb",
+      "s3_target_pattern": "s3://global-storage-491/unimate_pilots_20261018/buffalo/animation_candidates/walk_skintokens_quad10_cfg3/rep_0.glb",
+      "preview_mp4_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/previews/buffalo_nopost-an_object_walks_in_place-rep_0-10.mp4",
+      "preview_mp4_local": "tmp/skintokens_quad10_20261027/previews/buffalo_nopost-an_object_walks_in_place-rep_0-10.mp4",
+      "preview_mp4_exists": true,
+      "contact_sheet_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/sheets/buffalo_nopost-an_object_walks_in_place-rep_0-10.jpg",
+      "contact_sheet_local": "tmp/skintokens_quad10_20261027/sheets/buffalo_nopost-an_object_walks_in_place-rep_0-10.jpg",
+      "contact_sheet_exists": true,
+      "audit_json_local": "tmp/skintokens_quad10_20261027/audits/buffalo_nopost-an_object_walks_in_place-rep_0-10.json"
+    },
+    "texture_status": {
+      "status": "VERIFICADO_PACKED",
+      "resolution": "4096x4096",
+      "embedded": true,
+      "materials_count": 1,
+      "textures_count": 2,
+      "images_count": 1,
+      "notes": "Textura difusa RGB 4096x4096 embebida directamente en el buffer binario del GLB (sin mallas blancas ni texturas descolgadas)."
+    },
+    "structural_audit": {
+      "edge_stretch_max": 20.57077969535446,
+      "edge_stretch_p99_max": 2.3078008251329063,
+      "edge_stretch_worst_frame": 22,
+      "floor_delta_min_norm": -0.0016029660061505603,
+      "floor_lowest_frame": 48,
+      "leg_bones_moving": 14,
+      "leg_bones_total": 16,
+      "leg_fraction_moving": 0.875
+    },
+    "visual_verdict": {
+      "verdict": "CONGELADO (ganador)",
+      "frame": "f22",
+      "defect": "Sin defecto",
+      "severity": "—"
+    }
+  },
+  {
+    "index": 8,
+    "species": "buffalo",
+    "catalog_family": "Bovinos y ungulados",
+    "taxonomic_family": "Bovidae (Bovinae)",
+    "profile": "buffalo_nopost",
+    "rig_version": "quad10-rig-v1-20261028+sha256.c0c0370a5adb",
+    "rig_sha256": "c0c0370a5adb8f54c4557336a5bab0154bac081f089f903e89620b350d7bae5c",
+    "action": "walk",
+    "prompt": "An object walks in place.",
+    "cfg_scale": 3.0,
+    "cycle_repetition": {
+      "rep_index": 1,
+      "repetition_status": "2 reps generadas y verificadas (rep_0, rep_1)",
+      "frames": 48,
+      "frame_range": [
+        1,
+        48
+      ],
+      "pose_seam_rms_norm": 0.027147299221893788,
+      "worst_speed_transition": [
+        34,
+        35
+      ]
+    },
+    "paths": {
+      "glb_remote_animated": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/samples/animated/buffalo_nopost-an_object_walks_in_place-rep_1-10.glb",
+      "glb_source_rig_remote": "/home/ubuntu/skintokens_quad10_20261027/assets/buffalo_nopost/buffalo_nopost.glb",
+      "s3_target_pattern": "s3://global-storage-491/unimate_pilots_20261018/buffalo/animation_candidates/walk_skintokens_quad10_cfg3/rep_1.glb",
+      "preview_mp4_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/previews/buffalo_nopost-an_object_walks_in_place-rep_1-10.mp4",
+      "preview_mp4_local": "tmp/skintokens_quad10_20261027/previews/buffalo_nopost-an_object_walks_in_place-rep_1-10.mp4",
+      "preview_mp4_exists": true,
+      "contact_sheet_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/sheets/buffalo_nopost-an_object_walks_in_place-rep_1-10.jpg",
+      "contact_sheet_local": "tmp/skintokens_quad10_20261027/sheets/buffalo_nopost-an_object_walks_in_place-rep_1-10.jpg",
+      "contact_sheet_exists": true,
+      "audit_json_local": "tmp/skintokens_quad10_20261027/audits/buffalo_nopost-an_object_walks_in_place-rep_1-10.json"
+    },
+    "texture_status": {
+      "status": "VERIFICADO_PACKED",
+      "resolution": "4096x4096",
+      "embedded": true,
+      "materials_count": 1,
+      "textures_count": 2,
+      "images_count": 1,
+      "notes": "Textura difusa RGB 4096x4096 embebida directamente en el buffer binario del GLB (sin mallas blancas ni texturas descolgadas)."
+    },
+    "structural_audit": {
+      "edge_stretch_max": 10.511467754529274,
+      "edge_stretch_p99_max": 1.973852383653481,
+      "edge_stretch_worst_frame": 13,
+      "floor_delta_min_norm": -0.02582102363563607,
+      "floor_lowest_frame": 6,
+      "leg_bones_moving": 14,
+      "leg_bones_total": 16,
+      "leg_fraction_moving": 0.875
+    },
+    "visual_verdict": {
+      "verdict": "CONGELADO (ganador)",
+      "frame": "f13",
+      "defect": "Sin defecto",
+      "severity": "—"
+    }
+  },
+  {
+    "index": 9,
+    "species": "cougar",
+    "catalog_family": "Félidos",
+    "taxonomic_family": "Felidae (Felinae)",
+    "profile": "cougar_nopost",
+    "rig_version": "quad10-rig-v1-20261028+sha256.c21a5720f7a7",
+    "rig_sha256": "c21a5720f7a74e90f913f9e9c96021c8ba849c0fd93ab2e70bd9e05361d921ba",
+    "action": "walk",
+    "prompt": "An object walks in place.",
+    "cfg_scale": 3.0,
+    "cycle_repetition": {
+      "rep_index": 0,
+      "repetition_status": "2 reps generadas y verificadas (rep_0, rep_1)",
+      "frames": 48,
+      "frame_range": [
+        1,
+        48
+      ],
+      "pose_seam_rms_norm": 0.018908166092379313,
+      "worst_speed_transition": [
+        20,
+        21
+      ]
+    },
+    "paths": {
+      "glb_remote_animated": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/samples/animated/cougar_nopost-an_object_walks_in_place-rep_0-13.glb",
+      "glb_source_rig_remote": "/home/ubuntu/skintokens_quad10_20261027/assets/cougar_nopost/cougar_nopost.glb",
+      "s3_target_pattern": "s3://global-storage-491/unimate_pilots_20261018/cougar/animation_candidates/walk_skintokens_quad10_cfg3/rep_0.glb",
+      "preview_mp4_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/previews/cougar_nopost-an_object_walks_in_place-rep_0-13.mp4",
+      "preview_mp4_local": "tmp/skintokens_quad10_20261027/previews/cougar_nopost-an_object_walks_in_place-rep_0-13.mp4",
+      "preview_mp4_exists": true,
+      "contact_sheet_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/sheets/cougar_nopost-an_object_walks_in_place-rep_0-13.jpg",
+      "contact_sheet_local": "tmp/skintokens_quad10_20261027/sheets/cougar_nopost-an_object_walks_in_place-rep_0-13.jpg",
+      "contact_sheet_exists": true,
+      "audit_json_local": "tmp/skintokens_quad10_20261027/audits/cougar_nopost-an_object_walks_in_place-rep_0-13.json"
+    },
+    "texture_status": {
+      "status": "VERIFICADO_PACKED",
+      "resolution": "4096x4096",
+      "embedded": true,
+      "materials_count": 1,
+      "textures_count": 2,
+      "images_count": 1,
+      "notes": "Textura difusa RGB 4096x4096 embebida directamente en el buffer binario del GLB (sin mallas blancas ni texturas descolgadas)."
+    },
+    "structural_audit": {
+      "edge_stretch_max": 3.883996158287788,
+      "edge_stretch_p99_max": 1.6426686340482068,
+      "edge_stretch_worst_frame": 19,
+      "floor_delta_min_norm": -0.04215831276152139,
+      "floor_lowest_frame": 45,
+      "leg_bones_moving": 13,
+      "leg_bones_total": 16,
+      "leg_fraction_moving": 0.8125
+    },
+    "visual_verdict": {
+      "verdict": "CONGELADO (ganador)",
+      "frame": "f19",
+      "defect": "Sin defecto",
+      "severity": "—"
+    }
+  },
+  {
+    "index": 10,
+    "species": "cougar",
+    "catalog_family": "Félidos",
+    "taxonomic_family": "Felidae (Felinae)",
+    "profile": "cougar_nopost",
+    "rig_version": "quad10-rig-v1-20261028+sha256.c21a5720f7a7",
+    "rig_sha256": "c21a5720f7a74e90f913f9e9c96021c8ba849c0fd93ab2e70bd9e05361d921ba",
+    "action": "walk",
+    "prompt": "An object walks in place.",
+    "cfg_scale": 3.0,
+    "cycle_repetition": {
+      "rep_index": 1,
+      "repetition_status": "2 reps generadas y verificadas (rep_0, rep_1)",
+      "frames": 48,
+      "frame_range": [
+        1,
+        48
+      ],
+      "pose_seam_rms_norm": 0.023979629497716492,
+      "worst_speed_transition": [
+        6,
+        7
+      ]
+    },
+    "paths": {
+      "glb_remote_animated": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/samples/animated/cougar_nopost-an_object_walks_in_place-rep_1-13.glb",
+      "glb_source_rig_remote": "/home/ubuntu/skintokens_quad10_20261027/assets/cougar_nopost/cougar_nopost.glb",
+      "s3_target_pattern": "s3://global-storage-491/unimate_pilots_20261018/cougar/animation_candidates/walk_skintokens_quad10_cfg3/rep_1.glb",
+      "preview_mp4_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/previews/cougar_nopost-an_object_walks_in_place-rep_1-13.mp4",
+      "preview_mp4_local": "tmp/skintokens_quad10_20261027/previews/cougar_nopost-an_object_walks_in_place-rep_1-13.mp4",
+      "preview_mp4_exists": true,
+      "contact_sheet_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/sheets/cougar_nopost-an_object_walks_in_place-rep_1-13.jpg",
+      "contact_sheet_local": "tmp/skintokens_quad10_20261027/sheets/cougar_nopost-an_object_walks_in_place-rep_1-13.jpg",
+      "contact_sheet_exists": true,
+      "audit_json_local": "tmp/skintokens_quad10_20261027/audits/cougar_nopost-an_object_walks_in_place-rep_1-13.json"
+    },
+    "texture_status": {
+      "status": "VERIFICADO_PACKED",
+      "resolution": "4096x4096",
+      "embedded": true,
+      "materials_count": 1,
+      "textures_count": 2,
+      "images_count": 1,
+      "notes": "Textura difusa RGB 4096x4096 embebida directamente en el buffer binario del GLB (sin mallas blancas ni texturas descolgadas)."
+    },
+    "structural_audit": {
+      "edge_stretch_max": 6.485839613850479,
+      "edge_stretch_p99_max": 1.3521221464436726,
+      "edge_stretch_worst_frame": 48,
+      "floor_delta_min_norm": -0.04644372014851384,
+      "floor_lowest_frame": 42,
+      "leg_bones_moving": 11,
+      "leg_bones_total": 16,
+      "leg_fraction_moving": 0.6875
+    },
+    "visual_verdict": {
+      "verdict": "CONGELADO (ganador)",
+      "frame": "f42/f48",
+      "defect": "Sin defecto",
+      "severity": "—"
+    }
+  },
+  {
+    "index": 11,
+    "species": "cow",
+    "catalog_family": "Bovinos y ungulados",
+    "taxonomic_family": "Bovidae (Bovinae)",
+    "profile": "cow_conservative",
+    "rig_version": "quad10-rig-v1-20261028+sha256.1e10aa1eded4",
+    "rig_sha256": "1e10aa1eded4ccc05cfb1d18aa4d7da2e6521711874b85eee1f597d31db76152",
+    "action": "walk",
+    "prompt": "An object walks in place.",
+    "cfg_scale": 3.0,
+    "cycle_repetition": {
+      "rep_index": 0,
+      "repetition_status": "2 reps generadas y verificadas (rep_0, rep_1)",
+      "frames": 48,
+      "frame_range": [
+        1,
+        48
+      ],
+      "pose_seam_rms_norm": 0.023112934290455207,
+      "worst_speed_transition": [
+        16,
+        17
+      ]
+    },
+    "paths": {
+      "glb_remote_animated": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/samples/animated/cow_conservative-an_object_walks_in_place-rep_0-9.glb",
+      "glb_source_rig_remote": "/home/ubuntu/skintokens_quad10_20261027/assets/cow_conservative/cow_conservative.glb",
+      "s3_target_pattern": "s3://global-storage-491/unimate_pilots_20261018/cow/animation_candidates/walk_skintokens_quad10_cfg3/rep_0.glb",
+      "preview_mp4_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/previews/cow_conservative-an_object_walks_in_place-rep_0-9.mp4",
+      "preview_mp4_local": "tmp/skintokens_quad10_20261027/previews/cow_conservative-an_object_walks_in_place-rep_0-9.mp4",
+      "preview_mp4_exists": true,
+      "contact_sheet_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/sheets/cow_conservative-an_object_walks_in_place-rep_0-9.jpg",
+      "contact_sheet_local": "tmp/skintokens_quad10_20261027/sheets/cow_conservative-an_object_walks_in_place-rep_0-9.jpg",
+      "contact_sheet_exists": true,
+      "audit_json_local": "tmp/skintokens_quad10_20261027/audits/cow_conservative-an_object_walks_in_place-rep_0-9.json"
+    },
+    "texture_status": {
+      "status": "VERIFICADO_PACKED",
+      "resolution": "4096x4096",
+      "embedded": true,
+      "materials_count": 1,
+      "textures_count": 2,
+      "images_count": 1,
+      "notes": "Textura difusa RGB 4096x4096 embebida directamente en el buffer binario del GLB (sin mallas blancas ni texturas descolgadas)."
+    },
+    "structural_audit": {
+      "edge_stretch_max": 94.03345690876964,
+      "edge_stretch_p99_max": 4.200224621696402,
+      "edge_stretch_worst_frame": 24,
+      "floor_delta_min_norm": -0.048578190165813794,
+      "floor_lowest_frame": 32,
+      "leg_bones_moving": 11,
+      "leg_bones_total": 16,
+      "leg_fraction_moving": 0.6875
+    },
+    "visual_verdict": {
+      "verdict": "BLOQUEADO (sin alternativa)",
+      "frame": "f24",
+      "defect": "Desgarro severo y repetido en hombro/pata delantera (malla en acordeón)",
+      "severity": "Bloqueante-para-gate"
+    }
+  },
+  {
+    "index": 12,
+    "species": "cow",
+    "catalog_family": "Bovinos y ungulados",
+    "taxonomic_family": "Bovidae (Bovinae)",
+    "profile": "cow_conservative",
+    "rig_version": "quad10-rig-v1-20261028+sha256.1e10aa1eded4",
+    "rig_sha256": "1e10aa1eded4ccc05cfb1d18aa4d7da2e6521711874b85eee1f597d31db76152",
+    "action": "walk",
+    "prompt": "An object walks in place.",
+    "cfg_scale": 3.0,
+    "cycle_repetition": {
+      "rep_index": 1,
+      "repetition_status": "2 reps generadas y verificadas (rep_0, rep_1)",
+      "frames": 48,
+      "frame_range": [
+        1,
+        48
+      ],
+      "pose_seam_rms_norm": 0.02328389814307601,
+      "worst_speed_transition": [
+        9,
+        10
+      ]
+    },
+    "paths": {
+      "glb_remote_animated": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/samples/animated/cow_conservative-an_object_walks_in_place-rep_1-9.glb",
+      "glb_source_rig_remote": "/home/ubuntu/skintokens_quad10_20261027/assets/cow_conservative/cow_conservative.glb",
+      "s3_target_pattern": "s3://global-storage-491/unimate_pilots_20261018/cow/animation_candidates/walk_skintokens_quad10_cfg3/rep_1.glb",
+      "preview_mp4_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/previews/cow_conservative-an_object_walks_in_place-rep_1-9.mp4",
+      "preview_mp4_local": "tmp/skintokens_quad10_20261027/previews/cow_conservative-an_object_walks_in_place-rep_1-9.mp4",
+      "preview_mp4_exists": true,
+      "contact_sheet_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/sheets/cow_conservative-an_object_walks_in_place-rep_1-9.jpg",
+      "contact_sheet_local": "tmp/skintokens_quad10_20261027/sheets/cow_conservative-an_object_walks_in_place-rep_1-9.jpg",
+      "contact_sheet_exists": true,
+      "audit_json_local": "tmp/skintokens_quad10_20261027/audits/cow_conservative-an_object_walks_in_place-rep_1-9.json"
+    },
+    "texture_status": {
+      "status": "VERIFICADO_PACKED",
+      "resolution": "4096x4096",
+      "embedded": true,
+      "materials_count": 1,
+      "textures_count": 2,
+      "images_count": 1,
+      "notes": "Textura difusa RGB 4096x4096 embebida directamente en el buffer binario del GLB (sin mallas blancas ni texturas descolgadas)."
+    },
+    "structural_audit": {
+      "edge_stretch_max": 35.56703394668964,
+      "edge_stretch_p99_max": 3.764809243712521,
+      "edge_stretch_worst_frame": 26,
+      "floor_delta_min_norm": -0.06227503606636143,
+      "floor_lowest_frame": 38,
+      "leg_bones_moving": 12,
+      "leg_bones_total": 16,
+      "leg_fraction_moving": 0.75
+    },
+    "visual_verdict": {
+      "verdict": "BLOQUEADO (sin alternativa)",
+      "frame": "f38",
+      "defect": "Desgarro severo y repetido en hombro/pata delantera",
+      "severity": "Bloqueante-para-gate"
+    }
+  },
+  {
+    "index": 13,
+    "species": "coyote",
+    "catalog_family": "Cánidos",
+    "taxonomic_family": "Canidae",
+    "profile": "coyote_nopost",
+    "rig_version": "quad10-rig-v1-20261028+sha256.00c3613876cd",
+    "rig_sha256": "00c3613876cd28c067e55fcb607f55b13b387dc4698e8a1a57cdec04c709983d",
+    "action": "walk",
+    "prompt": "An object walks in place.",
+    "cfg_scale": 3.0,
+    "cycle_repetition": {
+      "rep_index": 0,
+      "repetition_status": "2 reps generadas y verificadas (rep_0, rep_1)",
+      "frames": 48,
+      "frame_range": [
+        1,
+        48
+      ],
+      "pose_seam_rms_norm": 0.0426880280768557,
+      "worst_speed_transition": [
+        36,
+        37
+      ]
+    },
+    "paths": {
+      "glb_remote_animated": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/samples/animated/coyote_nopost-an_object_walks_in_place-rep_0-12.glb",
+      "glb_source_rig_remote": "/home/ubuntu/skintokens_quad10_20261027/assets/coyote_nopost/coyote_nopost.glb",
+      "s3_target_pattern": "s3://global-storage-491/unimate_pilots_20261018/coyote/animation_candidates/walk_skintokens_quad10_cfg3/rep_0.glb",
+      "preview_mp4_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/previews/coyote_nopost-an_object_walks_in_place-rep_0-12.mp4",
+      "preview_mp4_local": "tmp/skintokens_quad10_20261027/previews/coyote_nopost-an_object_walks_in_place-rep_0-12.mp4",
+      "preview_mp4_exists": true,
+      "contact_sheet_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/sheets/coyote_nopost-an_object_walks_in_place-rep_0-12.jpg",
+      "contact_sheet_local": "tmp/skintokens_quad10_20261027/sheets/coyote_nopost-an_object_walks_in_place-rep_0-12.jpg",
+      "contact_sheet_exists": true,
+      "audit_json_local": "tmp/skintokens_quad10_20261027/audits/coyote_nopost-an_object_walks_in_place-rep_0-12.json"
+    },
+    "texture_status": {
+      "status": "VERIFICADO_PACKED",
+      "resolution": "4096x4096",
+      "embedded": true,
+      "materials_count": 1,
+      "textures_count": 2,
+      "images_count": 1,
+      "notes": "Textura difusa RGB 4096x4096 embebida directamente en el buffer binario del GLB (sin mallas blancas ni texturas descolgadas)."
+    },
+    "structural_audit": {
+      "edge_stretch_max": 7.975020199227646,
+      "edge_stretch_p99_max": 1.8326964838199866,
+      "edge_stretch_worst_frame": 30,
+      "floor_delta_min_norm": -0.02800743949747756,
+      "floor_lowest_frame": 36,
+      "leg_bones_moving": 16,
+      "leg_bones_total": 16,
+      "leg_fraction_moving": 1.0
+    },
+    "visual_verdict": {
+      "verdict": "CONGELADO (ganador)",
+      "frame": "f30",
+      "defect": "Sin defecto",
+      "severity": "—"
+    }
+  },
+  {
+    "index": 14,
+    "species": "coyote",
+    "catalog_family": "Cánidos",
+    "taxonomic_family": "Canidae",
+    "profile": "coyote_nopost",
+    "rig_version": "quad10-rig-v1-20261028+sha256.00c3613876cd",
+    "rig_sha256": "00c3613876cd28c067e55fcb607f55b13b387dc4698e8a1a57cdec04c709983d",
+    "action": "walk",
+    "prompt": "An object walks in place.",
+    "cfg_scale": 3.0,
+    "cycle_repetition": {
+      "rep_index": 1,
+      "repetition_status": "2 reps generadas y verificadas (rep_0, rep_1)",
+      "frames": 48,
+      "frame_range": [
+        1,
+        48
+      ],
+      "pose_seam_rms_norm": 0.017838094172805564,
+      "worst_speed_transition": [
+        11,
+        12
+      ]
+    },
+    "paths": {
+      "glb_remote_animated": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/samples/animated/coyote_nopost-an_object_walks_in_place-rep_1-12.glb",
+      "glb_source_rig_remote": "/home/ubuntu/skintokens_quad10_20261027/assets/coyote_nopost/coyote_nopost.glb",
+      "s3_target_pattern": "s3://global-storage-491/unimate_pilots_20261018/coyote/animation_candidates/walk_skintokens_quad10_cfg3/rep_1.glb",
+      "preview_mp4_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/previews/coyote_nopost-an_object_walks_in_place-rep_1-12.mp4",
+      "preview_mp4_local": "tmp/skintokens_quad10_20261027/previews/coyote_nopost-an_object_walks_in_place-rep_1-12.mp4",
+      "preview_mp4_exists": true,
+      "contact_sheet_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/sheets/coyote_nopost-an_object_walks_in_place-rep_1-12.jpg",
+      "contact_sheet_local": "tmp/skintokens_quad10_20261027/sheets/coyote_nopost-an_object_walks_in_place-rep_1-12.jpg",
+      "contact_sheet_exists": true,
+      "audit_json_local": "tmp/skintokens_quad10_20261027/audits/coyote_nopost-an_object_walks_in_place-rep_1-12.json"
+    },
+    "texture_status": {
+      "status": "VERIFICADO_PACKED",
+      "resolution": "4096x4096",
+      "embedded": true,
+      "materials_count": 1,
+      "textures_count": 2,
+      "images_count": 1,
+      "notes": "Textura difusa RGB 4096x4096 embebida directamente en el buffer binario del GLB (sin mallas blancas ni texturas descolgadas)."
+    },
+    "structural_audit": {
+      "edge_stretch_max": 16.379181604055777,
+      "edge_stretch_p99_max": 1.9677921806574197,
+      "edge_stretch_worst_frame": 36,
+      "floor_delta_min_norm": -0.030243103940099558,
+      "floor_lowest_frame": 44,
+      "leg_bones_moving": 16,
+      "leg_bones_total": 16,
+      "leg_fraction_moving": 1.0
+    },
+    "visual_verdict": {
+      "verdict": "CONGELADO (ganador)",
+      "frame": "f36",
+      "defect": "Sin defecto",
+      "severity": "—"
+    }
+  },
+  {
+    "index": 15,
+    "species": "goat",
+    "catalog_family": "Bovinos y ungulados",
+    "taxonomic_family": "Bovidae (Caprinae)",
+    "profile": "goat_conservative",
+    "rig_version": "quad10-rig-v1-20261028+sha256.90b238929a4b",
+    "rig_sha256": "90b238929a4bb9e906152806078133fc77c6a245b6b45d178f1e9bfd7eb8e880",
+    "action": "walk",
+    "prompt": "An object walks in place.",
+    "cfg_scale": 3.0,
+    "cycle_repetition": {
+      "rep_index": 0,
+      "repetition_status": "2 reps generadas y verificadas (rep_0, rep_1)",
+      "frames": 48,
+      "frame_range": [
+        1,
+        48
+      ],
+      "pose_seam_rms_norm": 0.023108491817634823,
+      "worst_speed_transition": [
+        15,
+        16
+      ]
+    },
+    "paths": {
+      "glb_remote_animated": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/samples/animated/goat_conservative-an_object_walks_in_place-rep_0-1.glb",
+      "glb_source_rig_remote": "/home/ubuntu/skintokens_quad10_20261027/assets/goat_conservative/goat_conservative.glb",
+      "s3_target_pattern": "s3://global-storage-491/unimate_pilots_20261018/goat/animation_candidates/walk_skintokens_quad10_cfg3/rep_0.glb",
+      "preview_mp4_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/previews/goat_conservative-an_object_walks_in_place-rep_0-1.mp4",
+      "preview_mp4_local": "tmp/skintokens_quad10_20261027/previews/goat_conservative-an_object_walks_in_place-rep_0-1.mp4",
+      "preview_mp4_exists": true,
+      "contact_sheet_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/sheets/goat_conservative-an_object_walks_in_place-rep_0-1.jpg",
+      "contact_sheet_local": "tmp/skintokens_quad10_20261027/sheets/goat_conservative-an_object_walks_in_place-rep_0-1.jpg",
+      "contact_sheet_exists": true,
+      "audit_json_local": "tmp/skintokens_quad10_20261027/audits/goat_conservative-an_object_walks_in_place-rep_0-1.json"
+    },
+    "texture_status": {
+      "status": "VERIFICADO_PACKED",
+      "resolution": "4096x4096",
+      "embedded": true,
+      "materials_count": 1,
+      "textures_count": 2,
+      "images_count": 1,
+      "notes": "Textura difusa RGB 4096x4096 embebida directamente en el buffer binario del GLB (sin mallas blancas ni texturas descolgadas)."
+    },
+    "structural_audit": {
+      "edge_stretch_max": 14.514744204632027,
+      "edge_stretch_p99_max": 1.7939322869795429,
+      "edge_stretch_worst_frame": 12,
+      "floor_delta_min_norm": -0.007735575488769246,
+      "floor_lowest_frame": 26,
+      "leg_bones_moving": 5,
+      "leg_bones_total": 16,
+      "leg_fraction_moving": 0.3125
+    },
+    "visual_verdict": {
+      "verdict": "BLOQUEADO",
+      "frame": "f12",
+      "defect": "Desgarro en pezuña delantera izq. (abanico) + pata inmóvil (5/16 huesos >5°)",
+      "severity": "Bloqueante-para-gate"
+    }
+  },
+  {
+    "index": 16,
+    "species": "goat",
+    "catalog_family": "Bovinos y ungulados",
+    "taxonomic_family": "Bovidae (Caprinae)",
+    "profile": "goat_conservative",
+    "rig_version": "quad10-rig-v1-20261028+sha256.90b238929a4b",
+    "rig_sha256": "90b238929a4bb9e906152806078133fc77c6a245b6b45d178f1e9bfd7eb8e880",
+    "action": "walk",
+    "prompt": "An object walks in place.",
+    "cfg_scale": 3.0,
+    "cycle_repetition": {
+      "rep_index": 1,
+      "repetition_status": "2 reps generadas y verificadas (rep_0, rep_1)",
+      "frames": 48,
+      "frame_range": [
+        1,
+        48
+      ],
+      "pose_seam_rms_norm": 0.03206778764639803,
+      "worst_speed_transition": [
+        1,
+        2
+      ]
+    },
+    "paths": {
+      "glb_remote_animated": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/samples/animated/goat_conservative-an_object_walks_in_place-rep_1-1.glb",
+      "glb_source_rig_remote": "/home/ubuntu/skintokens_quad10_20261027/assets/goat_conservative/goat_conservative.glb",
+      "s3_target_pattern": "s3://global-storage-491/unimate_pilots_20261018/goat/animation_candidates/walk_skintokens_quad10_cfg3/rep_1.glb",
+      "preview_mp4_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/previews/goat_conservative-an_object_walks_in_place-rep_1-1.mp4",
+      "preview_mp4_local": "tmp/skintokens_quad10_20261027/previews/goat_conservative-an_object_walks_in_place-rep_1-1.mp4",
+      "preview_mp4_exists": true,
+      "contact_sheet_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/sheets/goat_conservative-an_object_walks_in_place-rep_1-1.jpg",
+      "contact_sheet_local": "tmp/skintokens_quad10_20261027/sheets/goat_conservative-an_object_walks_in_place-rep_1-1.jpg",
+      "contact_sheet_exists": true,
+      "audit_json_local": "tmp/skintokens_quad10_20261027/audits/goat_conservative-an_object_walks_in_place-rep_1-1.json"
+    },
+    "texture_status": {
+      "status": "VERIFICADO_PACKED",
+      "resolution": "4096x4096",
+      "embedded": true,
+      "materials_count": 1,
+      "textures_count": 2,
+      "images_count": 1,
+      "notes": "Textura difusa RGB 4096x4096 embebida directamente en el buffer binario del GLB (sin mallas blancas ni texturas descolgadas)."
+    },
+    "structural_audit": {
+      "edge_stretch_max": 25.976734075744353,
+      "edge_stretch_p99_max": 2.813206178724904,
+      "edge_stretch_worst_frame": 47,
+      "floor_delta_min_norm": -0.013446318543221446,
+      "floor_lowest_frame": 29,
+      "leg_bones_moving": 13,
+      "leg_bones_total": 16,
+      "leg_fraction_moving": 0.8125
+    },
+    "visual_verdict": {
+      "verdict": "BLOQUEADO",
+      "frame": "peor métrica",
+      "defect": "Pata delantera restringida, rig defectuoso",
+      "severity": "Bloqueante-para-gate"
+    }
+  },
+  {
+    "index": 17,
+    "species": "goat",
+    "catalog_family": "Bovinos y ungulados",
+    "taxonomic_family": "Bovidae (Caprinae)",
+    "profile": "goat_nopost",
+    "rig_version": "quad10-rig-v1-20261028+sha256.4891771cf36a",
+    "rig_sha256": "4891771cf36aed5f4073a1e1d1e761bcf6d6ab210b5af9c783332769d7d9c28a",
+    "action": "walk",
+    "prompt": "An object walks in place.",
+    "cfg_scale": 3.0,
+    "cycle_repetition": {
+      "rep_index": 0,
+      "repetition_status": "2 reps generadas y verificadas (rep_0, rep_1)",
+      "frames": 48,
+      "frame_range": [
+        1,
+        48
+      ],
+      "pose_seam_rms_norm": 0.05821416775340547,
+      "worst_speed_transition": [
+        39,
+        40
+      ]
+    },
+    "paths": {
+      "glb_remote_animated": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/samples/animated/goat_nopost-an_object_walks_in_place-rep_0-0.glb",
+      "glb_source_rig_remote": "/home/ubuntu/skintokens_quad10_20261027/assets/goat_nopost/goat_nopost.glb",
+      "s3_target_pattern": "s3://global-storage-491/unimate_pilots_20261018/goat/animation_candidates/walk_skintokens_quad10_cfg3/rep_0.glb",
+      "preview_mp4_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/previews/goat_nopost-an_object_walks_in_place-rep_0-0.mp4",
+      "preview_mp4_local": "tmp/skintokens_quad10_20261027/previews/goat_nopost-an_object_walks_in_place-rep_0-0.mp4",
+      "preview_mp4_exists": true,
+      "contact_sheet_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/sheets/goat_nopost-an_object_walks_in_place-rep_0-0.jpg",
+      "contact_sheet_local": "tmp/skintokens_quad10_20261027/sheets/goat_nopost-an_object_walks_in_place-rep_0-0.jpg",
+      "contact_sheet_exists": true,
+      "audit_json_local": "tmp/skintokens_quad10_20261027/audits/goat_nopost-an_object_walks_in_place-rep_0-0.json"
+    },
+    "texture_status": {
+      "status": "VERIFICADO_PACKED",
+      "resolution": "4096x4096",
+      "embedded": true,
+      "materials_count": 1,
+      "textures_count": 2,
+      "images_count": 1,
+      "notes": "Textura difusa RGB 4096x4096 embebida directamente en el buffer binario del GLB (sin mallas blancas ni texturas descolgadas)."
+    },
+    "structural_audit": {
+      "edge_stretch_max": 8.209659939458893,
+      "edge_stretch_p99_max": 1.9611445327341193,
+      "edge_stretch_worst_frame": 38,
+      "floor_delta_min_norm": -0.05717281946204857,
+      "floor_lowest_frame": 18,
+      "leg_bones_moving": 12,
+      "leg_bones_total": 16,
+      "leg_fraction_moving": 0.75
+    },
+    "visual_verdict": {
+      "verdict": "CONGELADO (ganador)",
+      "frame": "peor métrica",
+      "defect": "Sin defecto",
+      "severity": "—"
+    }
+  },
+  {
+    "index": 18,
+    "species": "goat",
+    "catalog_family": "Bovinos y ungulados",
+    "taxonomic_family": "Bovidae (Caprinae)",
+    "profile": "goat_nopost",
+    "rig_version": "quad10-rig-v1-20261028+sha256.4891771cf36a",
+    "rig_sha256": "4891771cf36aed5f4073a1e1d1e761bcf6d6ab210b5af9c783332769d7d9c28a",
+    "action": "walk",
+    "prompt": "An object walks in place.",
+    "cfg_scale": 3.0,
+    "cycle_repetition": {
+      "rep_index": 1,
+      "repetition_status": "2 reps generadas y verificadas (rep_0, rep_1)",
+      "frames": 48,
+      "frame_range": [
+        1,
+        48
+      ],
+      "pose_seam_rms_norm": 0.05240753084273708,
+      "worst_speed_transition": [
+        2,
+        3
+      ]
+    },
+    "paths": {
+      "glb_remote_animated": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/samples/animated/goat_nopost-an_object_walks_in_place-rep_1-0.glb",
+      "glb_source_rig_remote": "/home/ubuntu/skintokens_quad10_20261027/assets/goat_nopost/goat_nopost.glb",
+      "s3_target_pattern": "s3://global-storage-491/unimate_pilots_20261018/goat/animation_candidates/walk_skintokens_quad10_cfg3/rep_1.glb",
+      "preview_mp4_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/previews/goat_nopost-an_object_walks_in_place-rep_1-0.mp4",
+      "preview_mp4_local": "tmp/skintokens_quad10_20261027/previews/goat_nopost-an_object_walks_in_place-rep_1-0.mp4",
+      "preview_mp4_exists": true,
+      "contact_sheet_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/sheets/goat_nopost-an_object_walks_in_place-rep_1-0.jpg",
+      "contact_sheet_local": "tmp/skintokens_quad10_20261027/sheets/goat_nopost-an_object_walks_in_place-rep_1-0.jpg",
+      "contact_sheet_exists": true,
+      "audit_json_local": "tmp/skintokens_quad10_20261027/audits/goat_nopost-an_object_walks_in_place-rep_1-0.json"
+    },
+    "texture_status": {
+      "status": "VERIFICADO_PACKED",
+      "resolution": "4096x4096",
+      "embedded": true,
+      "materials_count": 1,
+      "textures_count": 2,
+      "images_count": 1,
+      "notes": "Textura difusa RGB 4096x4096 embebida directamente en el buffer binario del GLB (sin mallas blancas ni texturas descolgadas)."
+    },
+    "structural_audit": {
+      "edge_stretch_max": 17.129095057870515,
+      "edge_stretch_p99_max": 1.8600244387875329,
+      "edge_stretch_worst_frame": 16,
+      "floor_delta_min_norm": -0.005167600111408229,
+      "floor_lowest_frame": 8,
+      "leg_bones_moving": 12,
+      "leg_bones_total": 16,
+      "leg_fraction_moving": 0.75
+    },
+    "visual_verdict": {
+      "verdict": "CONGELADO (ganador)",
+      "frame": "f16",
+      "defect": "Sin defecto",
+      "severity": "—"
+    }
+  },
+  {
+    "index": 19,
+    "species": "hippopotamus",
+    "catalog_family": "Paquidermos",
+    "taxonomic_family": "Hippopotamidae",
+    "profile": "hippopotamus_nopost",
+    "rig_version": "quad10-rig-v1-20261028+sha256.281c0c487f05",
+    "rig_sha256": "281c0c487f05faa743b596ebb86d1ed927be4728fb86974189f6b9ab3024a553",
+    "action": "walk",
+    "prompt": "An object walks in place.",
+    "cfg_scale": 3.0,
+    "cycle_repetition": {
+      "rep_index": 0,
+      "repetition_status": "2 reps generadas y verificadas (rep_0, rep_1)",
+      "frames": 48,
+      "frame_range": [
+        1,
+        48
+      ],
+      "pose_seam_rms_norm": 0.04688331692663932,
+      "worst_speed_transition": [
+        28,
+        29
+      ]
+    },
+    "paths": {
+      "glb_remote_animated": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/samples/animated/hippopotamus_nopost-an_object_walks_in_place-rep_0-6.glb",
+      "glb_source_rig_remote": "/home/ubuntu/skintokens_quad10_20261027/assets/hippopotamus_nopost/hippopotamus_nopost.glb",
+      "s3_target_pattern": "s3://global-storage-491/unimate_pilots_20261018/hippopotamus/animation_candidates/walk_skintokens_quad10_cfg3/rep_0.glb",
+      "preview_mp4_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/previews/hippopotamus_nopost-an_object_walks_in_place-rep_0-6.mp4",
+      "preview_mp4_local": "tmp/skintokens_quad10_20261027/previews/hippopotamus_nopost-an_object_walks_in_place-rep_0-6.mp4",
+      "preview_mp4_exists": true,
+      "contact_sheet_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/sheets/hippopotamus_nopost-an_object_walks_in_place-rep_0-6.jpg",
+      "contact_sheet_local": "tmp/skintokens_quad10_20261027/sheets/hippopotamus_nopost-an_object_walks_in_place-rep_0-6.jpg",
+      "contact_sheet_exists": true,
+      "audit_json_local": "tmp/skintokens_quad10_20261027/audits/hippopotamus_nopost-an_object_walks_in_place-rep_0-6.json"
+    },
+    "texture_status": {
+      "status": "VERIFICADO_PACKED",
+      "resolution": "4096x4096",
+      "embedded": true,
+      "materials_count": 1,
+      "textures_count": 2,
+      "images_count": 1,
+      "notes": "Textura difusa RGB 4096x4096 embebida directamente en el buffer binario del GLB (sin mallas blancas ni texturas descolgadas)."
+    },
+    "structural_audit": {
+      "edge_stretch_max": 12.72283933995292,
+      "edge_stretch_p99_max": 2.0113677632183173,
+      "edge_stretch_worst_frame": 37,
+      "floor_delta_min_norm": -0.03906153911512654,
+      "floor_lowest_frame": 40,
+      "leg_bones_moving": 13,
+      "leg_bones_total": 16,
+      "leg_fraction_moving": 0.8125
+    },
+    "visual_verdict": {
+      "verdict": "CONGELADO (ganador)",
+      "frame": "f37",
+      "defect": "Sin defecto",
+      "severity": "—"
+    }
+  },
+  {
+    "index": 20,
+    "species": "hippopotamus",
+    "catalog_family": "Paquidermos",
+    "taxonomic_family": "Hippopotamidae",
+    "profile": "hippopotamus_nopost",
+    "rig_version": "quad10-rig-v1-20261028+sha256.281c0c487f05",
+    "rig_sha256": "281c0c487f05faa743b596ebb86d1ed927be4728fb86974189f6b9ab3024a553",
+    "action": "walk",
+    "prompt": "An object walks in place.",
+    "cfg_scale": 3.0,
+    "cycle_repetition": {
+      "rep_index": 1,
+      "repetition_status": "2 reps generadas y verificadas (rep_0, rep_1)",
+      "frames": 48,
+      "frame_range": [
+        1,
+        48
+      ],
+      "pose_seam_rms_norm": 0.060814450850500565,
+      "worst_speed_transition": [
+        28,
+        29
+      ]
+    },
+    "paths": {
+      "glb_remote_animated": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/samples/animated/hippopotamus_nopost-an_object_walks_in_place-rep_1-6.glb",
+      "glb_source_rig_remote": "/home/ubuntu/skintokens_quad10_20261027/assets/hippopotamus_nopost/hippopotamus_nopost.glb",
+      "s3_target_pattern": "s3://global-storage-491/unimate_pilots_20261018/hippopotamus/animation_candidates/walk_skintokens_quad10_cfg3/rep_1.glb",
+      "preview_mp4_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/previews/hippopotamus_nopost-an_object_walks_in_place-rep_1-6.mp4",
+      "preview_mp4_local": "tmp/skintokens_quad10_20261027/previews/hippopotamus_nopost-an_object_walks_in_place-rep_1-6.mp4",
+      "preview_mp4_exists": true,
+      "contact_sheet_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/sheets/hippopotamus_nopost-an_object_walks_in_place-rep_1-6.jpg",
+      "contact_sheet_local": "tmp/skintokens_quad10_20261027/sheets/hippopotamus_nopost-an_object_walks_in_place-rep_1-6.jpg",
+      "contact_sheet_exists": true,
+      "audit_json_local": "tmp/skintokens_quad10_20261027/audits/hippopotamus_nopost-an_object_walks_in_place-rep_1-6.json"
+    },
+    "texture_status": {
+      "status": "VERIFICADO_PACKED",
+      "resolution": "4096x4096",
+      "embedded": true,
+      "materials_count": 1,
+      "textures_count": 2,
+      "images_count": 1,
+      "notes": "Textura difusa RGB 4096x4096 embebida directamente en el buffer binario del GLB (sin mallas blancas ni texturas descolgadas)."
+    },
+    "structural_audit": {
+      "edge_stretch_max": 11.251571579309497,
+      "edge_stretch_p99_max": 1.9983645081728822,
+      "edge_stretch_worst_frame": 36,
+      "floor_delta_min_norm": -0.05695138435863775,
+      "floor_lowest_frame": 31,
+      "leg_bones_moving": 12,
+      "leg_bones_total": 16,
+      "leg_fraction_moving": 0.75
+    },
+    "visual_verdict": {
+      "verdict": "CONGELADO (ganador)",
+      "frame": "f31/f36",
+      "defect": "Sin defecto",
+      "severity": "—"
+    }
+  },
+  {
+    "index": 21,
+    "species": "hyena",
+    "catalog_family": "Hyaenidae / Carnívoros",
+    "taxonomic_family": "Hyaenidae",
+    "profile": "hyena_diverse",
+    "rig_version": "quad10-rig-v1-20261028+sha256.5d092cfb3356",
+    "rig_sha256": "5d092cfb33566597708d8d9924cce39665284ec13d03cc80ca273aef7e7c5c57",
+    "action": "walk",
+    "prompt": "An object walks in place.",
+    "cfg_scale": 3.0,
+    "cycle_repetition": {
+      "rep_index": 0,
+      "repetition_status": "2 reps generadas y verificadas (rep_0, rep_1)",
+      "frames": 48,
+      "frame_range": [
+        1,
+        48
+      ],
+      "pose_seam_rms_norm": 0.027969286819440303,
+      "worst_speed_transition": [
+        29,
+        30
+      ]
+    },
+    "paths": {
+      "glb_remote_animated": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/samples/animated/hyena_diverse-an_object_walks_in_place-rep_0-4.glb",
+      "glb_source_rig_remote": "/home/ubuntu/skintokens_quad10_20261027/assets/hyena_diverse/hyena_diverse.glb",
+      "s3_target_pattern": "s3://global-storage-491/unimate_pilots_20261018/hyena/animation_candidates/walk_skintokens_quad10_cfg3/rep_0.glb",
+      "preview_mp4_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/previews/hyena_diverse-an_object_walks_in_place-rep_0-4.mp4",
+      "preview_mp4_local": "tmp/skintokens_quad10_20261027/previews/hyena_diverse-an_object_walks_in_place-rep_0-4.mp4",
+      "preview_mp4_exists": true,
+      "contact_sheet_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/sheets/hyena_diverse-an_object_walks_in_place-rep_0-4.jpg",
+      "contact_sheet_local": "tmp/skintokens_quad10_20261027/sheets/hyena_diverse-an_object_walks_in_place-rep_0-4.jpg",
+      "contact_sheet_exists": true,
+      "audit_json_local": "tmp/skintokens_quad10_20261027/audits/hyena_diverse-an_object_walks_in_place-rep_0-4.json"
+    },
+    "texture_status": {
+      "status": "VERIFICADO_PACKED",
+      "resolution": "4096x4096",
+      "embedded": true,
+      "materials_count": 1,
+      "textures_count": 2,
+      "images_count": 1,
+      "notes": "Textura difusa RGB 4096x4096 embebida directamente en el buffer binario del GLB (sin mallas blancas ni texturas descolgadas)."
+    },
+    "structural_audit": {
+      "edge_stretch_max": 30.51653803540027,
+      "edge_stretch_p99_max": 2.9737292917714213,
+      "edge_stretch_worst_frame": 17,
+      "floor_delta_min_norm": -0.02487333215753013,
+      "floor_lowest_frame": 21,
+      "leg_bones_moving": 14,
+      "leg_bones_total": 16,
+      "leg_fraction_moving": 0.875
+    },
+    "visual_verdict": {
+      "verdict": "CONGELADO (ganador)",
+      "frame": "f17",
+      "defect": "Sin defecto",
+      "severity": "—"
+    }
+  },
+  {
+    "index": 22,
+    "species": "hyena",
+    "catalog_family": "Hyaenidae / Carnívoros",
+    "taxonomic_family": "Hyaenidae",
+    "profile": "hyena_diverse",
+    "rig_version": "quad10-rig-v1-20261028+sha256.5d092cfb3356",
+    "rig_sha256": "5d092cfb33566597708d8d9924cce39665284ec13d03cc80ca273aef7e7c5c57",
+    "action": "walk",
+    "prompt": "An object walks in place.",
+    "cfg_scale": 3.0,
+    "cycle_repetition": {
+      "rep_index": 1,
+      "repetition_status": "2 reps generadas y verificadas (rep_0, rep_1)",
+      "frames": 48,
+      "frame_range": [
+        1,
+        48
+      ],
+      "pose_seam_rms_norm": 0.05367596843572264,
+      "worst_speed_transition": [
+        44,
+        45
+      ]
+    },
+    "paths": {
+      "glb_remote_animated": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/samples/animated/hyena_diverse-an_object_walks_in_place-rep_1-4.glb",
+      "glb_source_rig_remote": "/home/ubuntu/skintokens_quad10_20261027/assets/hyena_diverse/hyena_diverse.glb",
+      "s3_target_pattern": "s3://global-storage-491/unimate_pilots_20261018/hyena/animation_candidates/walk_skintokens_quad10_cfg3/rep_1.glb",
+      "preview_mp4_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/previews/hyena_diverse-an_object_walks_in_place-rep_1-4.mp4",
+      "preview_mp4_local": "tmp/skintokens_quad10_20261027/previews/hyena_diverse-an_object_walks_in_place-rep_1-4.mp4",
+      "preview_mp4_exists": true,
+      "contact_sheet_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/sheets/hyena_diverse-an_object_walks_in_place-rep_1-4.jpg",
+      "contact_sheet_local": "tmp/skintokens_quad10_20261027/sheets/hyena_diverse-an_object_walks_in_place-rep_1-4.jpg",
+      "contact_sheet_exists": true,
+      "audit_json_local": "tmp/skintokens_quad10_20261027/audits/hyena_diverse-an_object_walks_in_place-rep_1-4.json"
+    },
+    "texture_status": {
+      "status": "VERIFICADO_PACKED",
+      "resolution": "4096x4096",
+      "embedded": true,
+      "materials_count": 1,
+      "textures_count": 2,
+      "images_count": 1,
+      "notes": "Textura difusa RGB 4096x4096 embebida directamente en el buffer binario del GLB (sin mallas blancas ni texturas descolgadas)."
+    },
+    "structural_audit": {
+      "edge_stretch_max": 12.642653850313309,
+      "edge_stretch_p99_max": 3.294450157332338,
+      "edge_stretch_worst_frame": 40,
+      "floor_delta_min_norm": -0.024716526140052413,
+      "floor_lowest_frame": 9,
+      "leg_bones_moving": 14,
+      "leg_bones_total": 16,
+      "leg_fraction_moving": 0.875
+    },
+    "visual_verdict": {
+      "verdict": "CONGELADO (ganador)",
+      "frame": "f40",
+      "defect": "Sin defecto",
+      "severity": "—"
+    }
+  },
+  {
+    "index": 23,
+    "species": "jackal",
+    "catalog_family": "Cánidos",
+    "taxonomic_family": "Canidae",
+    "profile": "jackal_conservative",
+    "rig_version": "quad10-rig-v1-20261028+sha256.37a0294425aa",
+    "rig_sha256": "37a0294425aa99f2b92557cdc0156c53fc76baff1acd87c5139204720c04ebda",
+    "action": "walk",
+    "prompt": "An object walks in place.",
+    "cfg_scale": 3.0,
+    "cycle_repetition": {
+      "rep_index": 0,
+      "repetition_status": "2 reps generadas y verificadas (rep_0, rep_1)",
+      "frames": 48,
+      "frame_range": [
+        1,
+        48
+      ],
+      "pose_seam_rms_norm": 0.05390476491085981,
+      "worst_speed_transition": [
+        1,
+        2
+      ]
+    },
+    "paths": {
+      "glb_remote_animated": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/samples/animated/jackal_conservative-an_object_walks_in_place-rep_0-5.glb",
+      "glb_source_rig_remote": "/home/ubuntu/skintokens_quad10_20261027/assets/jackal_conservative/jackal_conservative.glb",
+      "s3_target_pattern": "s3://global-storage-491/unimate_pilots_20261018/jackal/animation_candidates/walk_skintokens_quad10_cfg3/rep_0.glb",
+      "preview_mp4_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/previews/jackal_conservative-an_object_walks_in_place-rep_0-5.mp4",
+      "preview_mp4_local": "tmp/skintokens_quad10_20261027/previews/jackal_conservative-an_object_walks_in_place-rep_0-5.mp4",
+      "preview_mp4_exists": true,
+      "contact_sheet_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/sheets/jackal_conservative-an_object_walks_in_place-rep_0-5.jpg",
+      "contact_sheet_local": "tmp/skintokens_quad10_20261027/sheets/jackal_conservative-an_object_walks_in_place-rep_0-5.jpg",
+      "contact_sheet_exists": true,
+      "audit_json_local": "tmp/skintokens_quad10_20261027/audits/jackal_conservative-an_object_walks_in_place-rep_0-5.json"
+    },
+    "texture_status": {
+      "status": "VERIFICADO_PACKED",
+      "resolution": "4096x4096",
+      "embedded": true,
+      "materials_count": 1,
+      "textures_count": 2,
+      "images_count": 1,
+      "notes": "Textura difusa RGB 4096x4096 embebida directamente en el buffer binario del GLB (sin mallas blancas ni texturas descolgadas)."
+    },
+    "structural_audit": {
+      "edge_stretch_max": 25.912895665149147,
+      "edge_stretch_p99_max": 2.989895500425426,
+      "edge_stretch_worst_frame": 23,
+      "floor_delta_min_norm": -0.025438396245385575,
+      "floor_lowest_frame": 48,
+      "leg_bones_moving": 13,
+      "leg_bones_total": 16,
+      "leg_fraction_moving": 0.8125
+    },
+    "visual_verdict": {
+      "verdict": "CONGELADO (ganador)",
+      "frame": "f23",
+      "defect": "Sin defecto",
+      "severity": "—"
+    }
+  },
+  {
+    "index": 24,
+    "species": "jackal",
+    "catalog_family": "Cánidos",
+    "taxonomic_family": "Canidae",
+    "profile": "jackal_conservative",
+    "rig_version": "quad10-rig-v1-20261028+sha256.37a0294425aa",
+    "rig_sha256": "37a0294425aa99f2b92557cdc0156c53fc76baff1acd87c5139204720c04ebda",
+    "action": "walk",
+    "prompt": "An object walks in place.",
+    "cfg_scale": 3.0,
+    "cycle_repetition": {
+      "rep_index": 1,
+      "repetition_status": "2 reps generadas y verificadas (rep_0, rep_1)",
+      "frames": 48,
+      "frame_range": [
+        1,
+        48
+      ],
+      "pose_seam_rms_norm": 0.07899848743888767,
+      "worst_speed_transition": [
+        37,
+        38
+      ]
+    },
+    "paths": {
+      "glb_remote_animated": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/samples/animated/jackal_conservative-an_object_walks_in_place-rep_1-5.glb",
+      "glb_source_rig_remote": "/home/ubuntu/skintokens_quad10_20261027/assets/jackal_conservative/jackal_conservative.glb",
+      "s3_target_pattern": "s3://global-storage-491/unimate_pilots_20261018/jackal/animation_candidates/walk_skintokens_quad10_cfg3/rep_1.glb",
+      "preview_mp4_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/previews/jackal_conservative-an_object_walks_in_place-rep_1-5.mp4",
+      "preview_mp4_local": "tmp/skintokens_quad10_20261027/previews/jackal_conservative-an_object_walks_in_place-rep_1-5.mp4",
+      "preview_mp4_exists": true,
+      "contact_sheet_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/sheets/jackal_conservative-an_object_walks_in_place-rep_1-5.jpg",
+      "contact_sheet_local": "tmp/skintokens_quad10_20261027/sheets/jackal_conservative-an_object_walks_in_place-rep_1-5.jpg",
+      "contact_sheet_exists": true,
+      "audit_json_local": "tmp/skintokens_quad10_20261027/audits/jackal_conservative-an_object_walks_in_place-rep_1-5.json"
+    },
+    "texture_status": {
+      "status": "VERIFICADO_PACKED",
+      "resolution": "4096x4096",
+      "embedded": true,
+      "materials_count": 1,
+      "textures_count": 2,
+      "images_count": 1,
+      "notes": "Textura difusa RGB 4096x4096 embebida directamente en el buffer binario del GLB (sin mallas blancas ni texturas descolgadas)."
+    },
+    "structural_audit": {
+      "edge_stretch_max": 22.980054905376587,
+      "edge_stretch_p99_max": 3.102512347811514,
+      "edge_stretch_worst_frame": 23,
+      "floor_delta_min_norm": 0.0,
+      "floor_lowest_frame": 1,
+      "leg_bones_moving": 12,
+      "leg_bones_total": 16,
+      "leg_fraction_moving": 0.75
+    },
+    "visual_verdict": {
+      "verdict": "CONGELADO (ganador)",
+      "frame": "f23",
+      "defect": "Doble contorno espinilla delantera (posible motion blur)",
+      "severity": "Menor-tolerable"
+    }
+  },
+  {
+    "index": 25,
+    "species": "pig",
+    "catalog_family": "Bovinos y ungulados (Suidos)",
+    "taxonomic_family": "Suidae",
+    "profile": "pig_conservative",
+    "rig_version": "quad10-rig-v1-20261028+sha256.7debe0e78236",
+    "rig_sha256": "7debe0e7823600327607d43cfa25a6f25f5c5015e907381d93c4161564565a62",
+    "action": "walk",
+    "prompt": "An object walks in place.",
+    "cfg_scale": 3.0,
+    "cycle_repetition": {
+      "rep_index": 0,
+      "repetition_status": "2 reps generadas y verificadas (rep_0, rep_1)",
+      "frames": 48,
+      "frame_range": [
+        1,
+        48
+      ],
+      "pose_seam_rms_norm": 0.021049819863879507,
+      "worst_speed_transition": [
+        16,
+        17
+      ]
+    },
+    "paths": {
+      "glb_remote_animated": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/samples/animated/pig_conservative-an_object_walks_in_place-rep_0-3.glb",
+      "glb_source_rig_remote": "/home/ubuntu/skintokens_quad10_20261027/assets/pig_conservative/pig_conservative.glb",
+      "s3_target_pattern": "s3://global-storage-491/unimate_pilots_20261018/pig/animation_candidates/walk_skintokens_quad10_cfg3/rep_0.glb",
+      "preview_mp4_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/previews/pig_conservative-an_object_walks_in_place-rep_0-3.mp4",
+      "preview_mp4_local": "tmp/skintokens_quad10_20261027/previews/pig_conservative-an_object_walks_in_place-rep_0-3.mp4",
+      "preview_mp4_exists": true,
+      "contact_sheet_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/sheets/pig_conservative-an_object_walks_in_place-rep_0-3.jpg",
+      "contact_sheet_local": "tmp/skintokens_quad10_20261027/sheets/pig_conservative-an_object_walks_in_place-rep_0-3.jpg",
+      "contact_sheet_exists": true,
+      "audit_json_local": "tmp/skintokens_quad10_20261027/audits/pig_conservative-an_object_walks_in_place-rep_0-3.json"
+    },
+    "texture_status": {
+      "status": "VERIFICADO_PACKED",
+      "resolution": "4096x4096",
+      "embedded": true,
+      "materials_count": 1,
+      "textures_count": 2,
+      "images_count": 1,
+      "notes": "Textura difusa RGB 4096x4096 embebida directamente en el buffer binario del GLB (sin mallas blancas ni texturas descolgadas)."
+    },
+    "structural_audit": {
+      "edge_stretch_max": 19.83191875003188,
+      "edge_stretch_p99_max": 3.887910056088125,
+      "edge_stretch_worst_frame": 20,
+      "floor_delta_min_norm": -0.016695687067461395,
+      "floor_lowest_frame": 18,
+      "leg_bones_moving": 14,
+      "leg_bones_total": 16,
+      "leg_fraction_moving": 0.875
+    },
+    "visual_verdict": {
+      "verdict": "CONGELADO con reserva",
+      "frame": "peor métrica",
+      "defect": "Sin defecto grave en rep_0",
+      "severity": "Menor-tolerable"
+    }
+  },
+  {
+    "index": 26,
+    "species": "pig",
+    "catalog_family": "Bovinos y ungulados (Suidos)",
+    "taxonomic_family": "Suidae",
+    "profile": "pig_conservative",
+    "rig_version": "quad10-rig-v1-20261028+sha256.7debe0e78236",
+    "rig_sha256": "7debe0e7823600327607d43cfa25a6f25f5c5015e907381d93c4161564565a62",
+    "action": "walk",
+    "prompt": "An object walks in place.",
+    "cfg_scale": 3.0,
+    "cycle_repetition": {
+      "rep_index": 1,
+      "repetition_status": "2 reps generadas y verificadas (rep_0, rep_1)",
+      "frames": 48,
+      "frame_range": [
+        1,
+        48
+      ],
+      "pose_seam_rms_norm": 0.030909371674569686,
+      "worst_speed_transition": [
+        27,
+        28
+      ]
+    },
+    "paths": {
+      "glb_remote_animated": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/samples/animated/pig_conservative-an_object_walks_in_place-rep_1-3.glb",
+      "glb_source_rig_remote": "/home/ubuntu/skintokens_quad10_20261027/assets/pig_conservative/pig_conservative.glb",
+      "s3_target_pattern": "s3://global-storage-491/unimate_pilots_20261018/pig/animation_candidates/walk_skintokens_quad10_cfg3/rep_1.glb",
+      "preview_mp4_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/previews/pig_conservative-an_object_walks_in_place-rep_1-3.mp4",
+      "preview_mp4_local": "tmp/skintokens_quad10_20261027/previews/pig_conservative-an_object_walks_in_place-rep_1-3.mp4",
+      "preview_mp4_exists": true,
+      "contact_sheet_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/sheets/pig_conservative-an_object_walks_in_place-rep_1-3.jpg",
+      "contact_sheet_local": "tmp/skintokens_quad10_20261027/sheets/pig_conservative-an_object_walks_in_place-rep_1-3.jpg",
+      "contact_sheet_exists": true,
+      "audit_json_local": "tmp/skintokens_quad10_20261027/audits/pig_conservative-an_object_walks_in_place-rep_1-3.json"
+    },
+    "texture_status": {
+      "status": "VERIFICADO_PACKED",
+      "resolution": "4096x4096",
+      "embedded": true,
+      "materials_count": 1,
+      "textures_count": 2,
+      "images_count": 1,
+      "notes": "Textura difusa RGB 4096x4096 embebida directamente en el buffer binario del GLB (sin mallas blancas ni texturas descolgadas)."
+    },
+    "structural_audit": {
+      "edge_stretch_max": 25.987154246698147,
+      "edge_stretch_p99_max": 2.7660561057067916,
+      "edge_stretch_worst_frame": 13,
+      "floor_delta_min_norm": -0.04191528185755692,
+      "floor_lowest_frame": 42,
+      "leg_bones_moving": 14,
+      "leg_bones_total": 16,
+      "leg_fraction_moving": 0.875
+    },
+    "visual_verdict": {
+      "verdict": "CONGELADO con reserva",
+      "frame": "f13",
+      "defect": "Jirón de malla desprendido junto a la cola",
+      "severity": "Menor-tolerable"
+    }
+  },
+  {
+    "index": 27,
+    "species": "pig",
+    "catalog_family": "Bovinos y ungulados (Suidos)",
+    "taxonomic_family": "Suidae",
+    "profile": "pig_nopost",
+    "rig_version": "quad10-rig-v1-20261028+sha256.da210b0bc10e",
+    "rig_sha256": "da210b0bc10e7f904ff1e2ecf1385348ea8d718062f34c55c081f1ea674d05f5",
+    "action": "walk",
+    "prompt": "An object walks in place.",
+    "cfg_scale": 3.0,
+    "cycle_repetition": {
+      "rep_index": 0,
+      "repetition_status": "2 reps generadas y verificadas (rep_0, rep_1)",
+      "frames": 48,
+      "frame_range": [
+        1,
+        48
+      ],
+      "pose_seam_rms_norm": 0.031424706110583935,
+      "worst_speed_transition": [
+        45,
+        46
+      ]
+    },
+    "paths": {
+      "glb_remote_animated": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/samples/animated/pig_nopost-an_object_walks_in_place-rep_0-2.glb",
+      "glb_source_rig_remote": "/home/ubuntu/skintokens_quad10_20261027/assets/pig_nopost/pig_nopost.glb",
+      "s3_target_pattern": "s3://global-storage-491/unimate_pilots_20261018/pig/animation_candidates/walk_skintokens_quad10_cfg3/rep_0.glb",
+      "preview_mp4_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/previews/pig_nopost-an_object_walks_in_place-rep_0-2.mp4",
+      "preview_mp4_local": "tmp/skintokens_quad10_20261027/previews/pig_nopost-an_object_walks_in_place-rep_0-2.mp4",
+      "preview_mp4_exists": true,
+      "contact_sheet_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/sheets/pig_nopost-an_object_walks_in_place-rep_0-2.jpg",
+      "contact_sheet_local": "tmp/skintokens_quad10_20261027/sheets/pig_nopost-an_object_walks_in_place-rep_0-2.jpg",
+      "contact_sheet_exists": true,
+      "audit_json_local": "tmp/skintokens_quad10_20261027/audits/pig_nopost-an_object_walks_in_place-rep_0-2.json"
+    },
+    "texture_status": {
+      "status": "VERIFICADO_PACKED",
+      "resolution": "4096x4096",
+      "embedded": true,
+      "materials_count": 1,
+      "textures_count": 2,
+      "images_count": 1,
+      "notes": "Textura difusa RGB 4096x4096 embebida directamente en el buffer binario del GLB (sin mallas blancas ni texturas descolgadas)."
+    },
+    "structural_audit": {
+      "edge_stretch_max": 24.32725635625429,
+      "edge_stretch_p99_max": 2.0152415346210444,
+      "edge_stretch_worst_frame": 16,
+      "floor_delta_min_norm": -0.019940332134714616,
+      "floor_lowest_frame": 43,
+      "leg_bones_moving": 16,
+      "leg_bones_total": 16,
+      "leg_fraction_moving": 1.0
+    },
+    "visual_verdict": {
+      "verdict": "CONGELADO con reserva",
+      "frame": "f16",
+      "defect": "Jirón de malla desprendido junto a la cola",
+      "severity": "Menor-tolerable"
+    }
+  },
+  {
+    "index": 28,
+    "species": "pig",
+    "catalog_family": "Bovinos y ungulados (Suidos)",
+    "taxonomic_family": "Suidae",
+    "profile": "pig_nopost",
+    "rig_version": "quad10-rig-v1-20261028+sha256.da210b0bc10e",
+    "rig_sha256": "da210b0bc10e7f904ff1e2ecf1385348ea8d718062f34c55c081f1ea674d05f5",
+    "action": "walk",
+    "prompt": "An object walks in place.",
+    "cfg_scale": 3.0,
+    "cycle_repetition": {
+      "rep_index": 1,
+      "repetition_status": "2 reps generadas y verificadas (rep_0, rep_1)",
+      "frames": 48,
+      "frame_range": [
+        1,
+        48
+      ],
+      "pose_seam_rms_norm": 0.01616530687696343,
+      "worst_speed_transition": [
+        44,
+        45
+      ]
+    },
+    "paths": {
+      "glb_remote_animated": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/samples/animated/pig_nopost-an_object_walks_in_place-rep_1-2.glb",
+      "glb_source_rig_remote": "/home/ubuntu/skintokens_quad10_20261027/assets/pig_nopost/pig_nopost.glb",
+      "s3_target_pattern": "s3://global-storage-491/unimate_pilots_20261018/pig/animation_candidates/walk_skintokens_quad10_cfg3/rep_1.glb",
+      "preview_mp4_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/previews/pig_nopost-an_object_walks_in_place-rep_1-2.mp4",
+      "preview_mp4_local": "tmp/skintokens_quad10_20261027/previews/pig_nopost-an_object_walks_in_place-rep_1-2.mp4",
+      "preview_mp4_exists": true,
+      "contact_sheet_remote": "/home/ubuntu/skintokens_quad10_20261027/walk_cfg3/sheets/pig_nopost-an_object_walks_in_place-rep_1-2.jpg",
+      "contact_sheet_local": "tmp/skintokens_quad10_20261027/sheets/pig_nopost-an_object_walks_in_place-rep_1-2.jpg",
+      "contact_sheet_exists": true,
+      "audit_json_local": "tmp/skintokens_quad10_20261027/audits/pig_nopost-an_object_walks_in_place-rep_1-2.json"
+    },
+    "texture_status": {
+      "status": "VERIFICADO_PACKED",
+      "resolution": "4096x4096",
+      "embedded": true,
+      "materials_count": 1,
+      "textures_count": 2,
+      "images_count": 1,
+      "notes": "Textura difusa RGB 4096x4096 embebida directamente en el buffer binario del GLB (sin mallas blancas ni texturas descolgadas)."
+    },
+    "structural_audit": {
+      "edge_stretch_max": 11.884079030268216,
+      "edge_stretch_p99_max": 1.9931224142328163,
+      "edge_stretch_worst_frame": 32,
+      "floor_delta_min_norm": -0.043637539493911595,
+      "floor_lowest_frame": 33,
+      "leg_bones_moving": 16,
+      "leg_bones_total": 16,
+      "leg_fraction_moving": 1.0
+    },
+    "visual_verdict": {
+      "verdict": "CONGELADO con reserva",
+      "frame": "f32",
+      "defect": "Jirón de malla desprendido junto a la cola",
+      "severity": "Menor-tolerable"
+    }
+  }
+]

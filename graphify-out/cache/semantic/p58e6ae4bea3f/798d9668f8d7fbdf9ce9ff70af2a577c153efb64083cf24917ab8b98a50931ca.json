@@ -1,0 +1,1 @@
+{"nodes": [{"id": "assets_dataset_overview", "label": "Dataset Overview Diagram", "file_type": "image", "source_file": "assets/dataset_overview.png", "rationale": "Visual representation of various character types (robots, plants, quadrupeds) and their associated motion descriptions in the dataset.", "_origin": "semantic"}], "edges": [], "hyperedges": []}

@@ -1,0 +1,118 @@
+{
+  "generated_at": "2026-11-04T13:52:29.446617+00:00",
+  "nodes": {
+    "artifacts_quad10_v1_cranial_accessory_template_2026_11_02": {
+      "code_fingerprint": "d5a24a2a518c5884ab8af0c29170cafde5f6e229ca1cdc80b5e6008fcf1fdc5c",
+      "label": "CRANIAL_ACCESSORY_TEMPLATE_2026-11-02.md",
+      "last": "2026-11-02T11:21:54.510665+00:00",
+      "provenance": [
+        {
+          "date": "2026-11-02T11:21:54.510665+00:00",
+          "outcome": "useful",
+          "q": "Investigate safe cranial-accessory vocabulary for the ten existing rig-wave GLBs"
+        }
+      ],
+      "score": 0.952537392,
+      "source_file": "artifacts/quad10-v1/CRANIAL_ACCESSORY_TEMPLATE_2026-11-02.md",
+      "status": "tentative",
+      "uses": 1
+    },
+    "tmp_cranial_vocab_20261102_auto_label_unirig_quadruped_v2_is_central_muzzle": {
+      "code_fingerprint": "1c07c5a10305a2126cb845a670f4f63e3f03b21429869d2d54e481957689d1cf",
+      "label": "is_central_muzzle()",
+      "last": "2026-11-02T11:21:54.510665+00:00",
+      "provenance": [
+        {
+          "date": "2026-11-02T11:21:54.510665+00:00",
+          "outcome": "useful",
+          "q": "Investigate safe cranial-accessory vocabulary for the ten existing rig-wave GLBs"
+        }
+      ],
+      "score": 0.952537392,
+      "source_file": "tmp/cranial_vocab_20261102/auto_label_unirig_quadruped_v2.py",
+      "status": "tentative",
+      "uses": 1
+    },
+    "tmp_cranial_vocab_20261102_auto_label_unirig_quadruped_v2_is_mirrored_ear_pair": {
+      "code_fingerprint": "1c07c5a10305a2126cb845a670f4f63e3f03b21429869d2d54e481957689d1cf",
+      "label": "is_mirrored_ear_pair()",
+      "last": "2026-11-02T11:21:54.510665+00:00",
+      "provenance": [
+        {
+          "date": "2026-11-02T11:21:54.510665+00:00",
+          "outcome": "useful",
+          "q": "Investigate safe cranial-accessory vocabulary for the ten existing rig-wave GLBs"
+        }
+      ],
+      "score": 0.952537392,
+      "source_file": "tmp/cranial_vocab_20261102/auto_label_unirig_quadruped_v2.py",
+      "status": "tentative",
+      "uses": 1
+    },
+    "unimate_inference_motion_expansion": {
+      "code_fingerprint": "c1fe82065bf0444403eed13637d40c418e49e61f17d9d4d3b4d9073098b4c539",
+      "label": "motion_expansion.py",
+      "last": "2026-10-31T19:21:04.450232+00:00",
+      "provenance": [
+        {
+          "date": "2026-10-31T19:21:04.450232+00:00",
+          "outcome": "useful",
+          "q": "How should the quad10 production canary use motion expansion, frozen rigs, and existing QA?"
+        }
+      ],
+      "score": 0.916541915,
+      "source_file": "unimate/inference/motion_expansion.py",
+      "status": "tentative",
+      "uses": 1
+    },
+    "unimate_inference_motion_expansion_build_overlap_keep_mask": {
+      "code_fingerprint": "c1fe82065bf0444403eed13637d40c418e49e61f17d9d4d3b4d9073098b4c539",
+      "label": "build_overlap_keep_mask()",
+      "last": "2026-10-31T19:21:04.450232+00:00",
+      "provenance": [
+        {
+          "date": "2026-10-31T19:21:04.450232+00:00",
+          "outcome": "useful",
+          "q": "How should the quad10 production canary use motion expansion, frozen rigs, and existing QA?"
+        }
+      ],
+      "score": 0.916541915,
+      "source_file": "unimate/inference/motion_expansion.py",
+      "status": "tentative",
+      "uses": 1
+    },
+    "unimate_inference_sample": {
+      "code_fingerprint": "c4c0574932bccd47a7ca0288fdf8a61412ab33f88026389dd94da78e1d4f9ff7",
+      "label": "sample.py",
+      "last": "2026-10-31T19:21:04.450232+00:00",
+      "provenance": [
+        {
+          "date": "2026-10-31T19:21:04.450232+00:00",
+          "outcome": "useful",
+          "q": "How should the quad10 production canary use motion expansion, frozen rigs, and existing QA?"
+        }
+      ],
+      "score": 0.916541915,
+      "source_file": "unimate/inference/sample.py",
+      "status": "tentative",
+      "uses": 1
+    },
+    "unimate_inference_sample_load_test_cases_json": {
+      "code_fingerprint": "c4c0574932bccd47a7ca0288fdf8a61412ab33f88026389dd94da78e1d4f9ff7",
+      "label": "_load_test_cases_json()",
+      "last": "2026-10-31T19:21:04.450232+00:00",
+      "provenance": [
+        {
+          "date": "2026-10-31T19:21:04.450232+00:00",
+          "outcome": "useful",
+          "q": "How should the quad10 production canary use motion expansion, frozen rigs, and existing QA?"
+        }
+      ],
+      "score": 0.916541915,
+      "source_file": "unimate/inference/sample.py",
+      "status": "tentative",
+      "uses": 1
+    }
+  },
+  "version": 1
+}
